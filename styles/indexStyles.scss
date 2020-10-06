@@ -37,6 +37,7 @@ button {
         float: left;
         margin-right: 50px;
         opacity: 0; // makes element invisible for a starting point for the animation
+        transform: translateY(-200px); // squish down to zero for starting point of animation
     }    
 
     p {
