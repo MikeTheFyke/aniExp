@@ -29,19 +29,20 @@ button {
     box-sizing: border-box;
     padding: 15% 7%;
     height: 100vh;
-    // transform: scaleY(0);
-    // transform-origin: bottom;
+    transform: scaleY(0); // squish down to zero for starting point of animation
+    transform-origin: bottom; // squish down to zero for starting point of animation
 
     img {
         width: 120px;
         float: left;
         margin-right: 50px;
+        opacity: 0; // makes element invisible for a starting point for the animation
     }    
 
     p {
         font-size: 1.9em;
         width: 80%;
-        // opacity: 0;
+        opacity: 0; // makes element invisible for a starting point for the animation
     }
 
     .box {
@@ -52,8 +53,8 @@ button {
         left: -7%;
         top: 15%;
         z-index: -1;
-        // opacity: 0;
-        // transform: scale(0);
+        opacity: 0; // makes element invisible for a starting point for the animation
+        transform: scale(0);
     }
 
 }
