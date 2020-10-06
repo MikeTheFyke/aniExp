@@ -18,6 +18,8 @@ button {
   font-size: 1.7em;
   padding: .5em 1em;
   cursor: pointer;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .panel {

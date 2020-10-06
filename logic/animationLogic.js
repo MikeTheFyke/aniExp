@@ -5,6 +5,14 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('.box', 3, { opacity: 1, scale: 1, ease: Elastic.easeOut.config(1, 0.3) });
 })
 
+document.getElementById('cta').addEventListener('mouseover', function(){
+    TweenMax.to('#cta', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('cta').addEventListener('mouseout', function(){
+    TweenMax.to('#cta', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
 
 // TweenMax.to('SELECTOR', DURATION, { CSS TAG ELEMENTS TO ANIMATE } )
 // https://greensock.com/docs/v3/Eases
