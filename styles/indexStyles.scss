@@ -8,6 +8,7 @@ h1 {
     width: 25%;
     color: red;
     line-height: 1em;
+    transform: scale(0);
 }
 
 button {
@@ -18,7 +19,7 @@ button {
     font-size: 1.7em;
     padding: .5em 1em;
     cursor: pointer;
-    transform: scale(1);
+    transform: scale(0);
 }
 
 .panel {
