@@ -38,7 +38,12 @@ document.getElementById('cta2').addEventListener('click', function () {
     TweenMax.to('.panel', 1.5, { scaleY: 0, delay: 0.75, ease: Circ.easeOut } );
 })
 
-/// Footer buttons animations
+/// Link1 button animations
+document.getElementById('tomato-link').addEventListener('click', function () {
+    this.style.color = "white";
+    this.style.backgroundColor = "crimson";
+    document.getElementById('bullseye').src = "./images/killer-tomato.jpg";
+});
 
 document.getElementById('tomato-link').addEventListener('mouseover', function(){
     TweenMax.to('#tomato-link', 1.5, { scale: 1.5, ease: Elastic.easeOut.config(1, 0.3) } );
@@ -47,15 +52,17 @@ document.getElementById('tomato-link').addEventListener('mouseover', function(){
     this.style.backgroundColor = "white";
 });
 
-document.getElementById('tomato-link').addEventListener('click', function () {
-    document.getElementById('bullseye').src = "./images/killer-tomato.jpg";
-});
-
 document.getElementById('tomato-link').addEventListener('mouseout', function(){
     TweenMax.to('#tomato-link', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "black";
     this.style.color = "black";
     this.style.backgroundColor = "transparent";
+});
+/// Link2 button animations
+document.getElementById('tomato-link2').addEventListener('click', function () {
+    this.style.color = "white";
+    this.style.backgroundColor = "limegreen";
+    document.getElementById('bullseye').src = "./images/can.png";
 });
 
 document.getElementById('tomato-link2').addEventListener('mouseover', function(){
@@ -65,15 +72,17 @@ document.getElementById('tomato-link2').addEventListener('mouseover', function()
     this.style.backgroundColor = "white";
 });
 
-document.getElementById('tomato-link2').addEventListener('click', function () {
-    document.getElementById('bullseye').src = "./images/can.png";
-});
-
 document.getElementById('tomato-link2').addEventListener('mouseout', function(){
     TweenMax.to('#tomato-link2', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "black";
     this.style.color = "black";
     this.style.backgroundColor = "transparent";
+});
+/// Link3 button animations
+document.getElementById('tomato-link3').addEventListener('click', function () {
+    this.style.color = "white";
+    this.style.backgroundColor = "lightsteelblue";
+    document.getElementById('bullseye').src = "./images/bottle.png";
 });
 
 document.getElementById('tomato-link3').addEventListener('mouseover', function(){
@@ -83,15 +92,17 @@ document.getElementById('tomato-link3').addEventListener('mouseover', function()
     this.style.backgroundColor = "white";
 });
 
-document.getElementById('tomato-link3').addEventListener('click', function () {
-    document.getElementById('bullseye').src = "./images/bottle.png";
-});
-
 document.getElementById('tomato-link3').addEventListener('mouseout', function(){
     TweenMax.to('#tomato-link3', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "black";
     this.style.color = "black";
     this.style.backgroundColor = "transparent";
+});
+/// Link4 button animations
+document.getElementById('tomato-link4').addEventListener('click', function () {
+    this.style.color = "white";
+    this.style.backgroundColor = "goldenrod";
+    document.getElementById('bullseye').src = "./images/apple.png";
 });
 
 document.getElementById('tomato-link4').addEventListener('mouseover', function(){
@@ -99,10 +110,6 @@ document.getElementById('tomato-link4').addEventListener('mouseover', function()
     this.style.borderColor = "orange";
     this.style.color = "goldenrod";
     this.style.backgroundColor = "white";
-});
-
-document.getElementById('tomato-link4').addEventListener('click', function () {
-    document.getElementById('bullseye').src = "./images/apple.png";
 });
 
 document.getElementById('tomato-link4').addEventListener('mouseout', function(){
