@@ -99,21 +99,21 @@ document.getElementById('bottle-link').addEventListener('mouseout', function(){
     this.style.backgroundColor = "transparent";
 });
 /// Link4 button animations
-document.getElementById('tomato-link4').addEventListener('click', function () {
+document.getElementById('apple-link').addEventListener('click', function () {
     this.style.color = "white";
     this.style.backgroundColor = "goldenrod";
     document.getElementById('bullseye').src = "./images/apple.png";
 });
 
-document.getElementById('tomato-link4').addEventListener('mouseover', function(){
-    TweenMax.to('#tomato-link4', 1.5, { scale: 1.5, ease: Elastic.easeOut.config(1, 0.3) } );
+document.getElementById('apple-link').addEventListener('mouseover', function(){
+    TweenMax.to('#apple-link', 1.5, { scale: 1.5, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "orange";
     this.style.color = "goldenrod";
     this.style.backgroundColor = "white";
 });
 
-document.getElementById('tomato-link4').addEventListener('mouseout', function(){
-    TweenMax.to('#tomato-link4', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+document.getElementById('apple-link').addEventListener('mouseout', function(){
+    TweenMax.to('#apple-link', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "black";
     this.style.color = "black";
     this.style.backgroundColor = "transparent";
