@@ -6,6 +6,7 @@ TweenMax.to('.footer', 1, { opacity: 1, scale: 1 } );
 // Button 1 animations
 
 document.getElementById('cta').addEventListener('click', function () {
+    document.getElementById('bullseye').src = "./images/bullseye.jpg";
     TweenMax.to('.panel', 1.5, { scaleY: 1, height: '100vh', ease: Circ.easeOut } );
     TweenMax.to('#bullseye', 1, { opacity: 1, y: 0, delay: 1, ease: Bounce.easeOut } );
     TweenMax.to('p', 1, { opacity: 1, y: 20, x:50, delay: 1.4 } );
@@ -64,8 +65,8 @@ document.getElementById('tomato-link2').addEventListener('mouseover', function()
     this.style.backgroundColor = "white";
 });
 
-document.getElementById('tomato-link').addEventListener('click', function () {
-    document.getElementById('bullseye').src = "./images/can.jpg";
+document.getElementById('tomato-link2').addEventListener('click', function () {
+    document.getElementById('bullseye').src = "./images/can.png";
 });
 
 document.getElementById('tomato-link2').addEventListener('mouseout', function(){
@@ -82,6 +83,10 @@ document.getElementById('tomato-link3').addEventListener('mouseover', function()
     this.style.backgroundColor = "white";
 });
 
+document.getElementById('tomato-link3').addEventListener('click', function () {
+    document.getElementById('bullseye').src = "./images/bottle.png";
+});
+
 document.getElementById('tomato-link3').addEventListener('mouseout', function(){
     TweenMax.to('#tomato-link3', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "black";
@@ -94,6 +99,10 @@ document.getElementById('tomato-link4').addEventListener('mouseover', function()
     this.style.borderColor = "orange";
     this.style.color = "goldenrod";
     this.style.backgroundColor = "white";
+});
+
+document.getElementById('tomato-link4').addEventListener('click', function () {
+    document.getElementById('bullseye').src = "./images/apple.png";
 });
 
 document.getElementById('tomato-link4').addEventListener('mouseout', function(){
