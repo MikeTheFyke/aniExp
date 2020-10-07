@@ -79,21 +79,21 @@ document.getElementById('can-link').addEventListener('mouseout', function(){
     this.style.backgroundColor = "transparent";
 });
 /// Link3 button animations
-document.getElementById('tomato-link3').addEventListener('click', function () {
+document.getElementById('bottle-link').addEventListener('click', function () {
     this.style.color = "white";
     this.style.backgroundColor = "lightsteelblue";
     document.getElementById('bullseye').src = "./images/bottle.png";
 });
 
-document.getElementById('tomato-link3').addEventListener('mouseover', function(){
-    TweenMax.to('#tomato-link3', 1.5, { scale: 1.5, ease: Elastic.easeOut.config(1, 0.3) } );
+document.getElementById('bottle-link').addEventListener('mouseover', function(){
+    TweenMax.to('#bottle-link', 1.5, { scale: 1.5, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "blue";
     this.style.color = "lightsteelblue";
     this.style.backgroundColor = "white";
 });
 
-document.getElementById('tomato-link3').addEventListener('mouseout', function(){
-    TweenMax.to('#tomato-link3', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+document.getElementById('bottle-link').addEventListener('mouseout', function(){
+    TweenMax.to('#bottle-link', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "black";
     this.style.color = "black";
     this.style.backgroundColor = "transparent";
