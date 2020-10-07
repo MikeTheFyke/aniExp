@@ -46,6 +46,10 @@ document.getElementById('tomato-link').addEventListener('mouseover', function(){
     this.style.backgroundColor = "white";
 });
 
+document.getElementById('tomato-link').addEventListener('click', function () {
+    document.getElementById('bullseye').src = "./images/killer-tomato.jpg";
+});
+
 document.getElementById('tomato-link').addEventListener('mouseout', function(){
     TweenMax.to('#tomato-link', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "black";
@@ -58,6 +62,10 @@ document.getElementById('tomato-link2').addEventListener('mouseover', function()
     this.style.borderColor = "green";
     this.style.color = "limegreen";
     this.style.backgroundColor = "white";
+});
+
+document.getElementById('tomato-link').addEventListener('click', function () {
+    document.getElementById('bullseye').src = "./images/can.jpg";
 });
 
 document.getElementById('tomato-link2').addEventListener('mouseout', function(){
