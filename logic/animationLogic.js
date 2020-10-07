@@ -41,34 +41,50 @@ document.getElementById('cta2').addEventListener('click', function () {
 
 document.getElementById('tomato-link').addEventListener('mouseover', function(){
     TweenMax.to('#tomato-link', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
+    this.style.borderColor = "orange";
+    this.style.color = "orange";
 });
 
 document.getElementById('tomato-link').addEventListener('mouseout', function(){
     TweenMax.to('#tomato-link', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+    this.style.borderColor = "black";
+    this.style.color = "black";
 });
 
 document.getElementById('tomato-link2').addEventListener('mouseover', function(){
     TweenMax.to('#tomato-link2', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
+    this.style.borderColor = "green";
+    this.style.color = "green";
 });
 
 document.getElementById('tomato-link2').addEventListener('mouseout', function(){
     TweenMax.to('#tomato-link2', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+    this.style.borderColor = "black";
+    this.style.color = "black";
 });
 
 document.getElementById('tomato-link3').addEventListener('mouseover', function(){
     TweenMax.to('#tomato-link3', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
+    this.style.borderColor = "red";
+    this.style.color = "red";
 });
 
 document.getElementById('tomato-link3').addEventListener('mouseout', function(){
     TweenMax.to('#tomato-link3', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+    this.style.borderColor = "black";
+    this.style.color = "black";
 });
 
 document.getElementById('tomato-link4').addEventListener('mouseover', function(){
     TweenMax.to('#tomato-link4', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
+    this.style.borderColor = "blue";
+    this.style.color = "blue";
 });
 
 document.getElementById('tomato-link4').addEventListener('mouseout', function(){
     TweenMax.to('#tomato-link4', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+    this.style.borderColor = "black";
+    this.style.color = "black";
 });
 
 // TweenMax.to('SELECTOR', DURATION, { CSS TAG ELEMENTS TO ANIMATE } )
