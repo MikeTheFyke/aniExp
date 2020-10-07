@@ -42,7 +42,7 @@ document.getElementById('cta2').addEventListener('click', function () {
 document.getElementById('tomato-link').addEventListener('click', function () {
     this.style.color = "white";
     this.style.backgroundColor = "crimson";
-    document.getElementById('bullseye').src = "./images/killer-tomato.jpg";
+    document.getElementById('bullseye').src = "./images/tomato.png";
 });
 
 document.getElementById('tomato-link').addEventListener('mouseover', function(){
