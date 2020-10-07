@@ -11,6 +11,11 @@ h1 {
     transform: scale(0);
 }
 
+.buttons-container{
+    width: 250px;
+    height: 200px;
+}
+
 #cta {
     background: none;
     border: 1px solid black;
@@ -18,9 +23,11 @@ h1 {
     font-weight: bold;
     font-size: 1.7em;
     padding: .5em 1em;
+    margin-bottom: 30px;
     cursor: pointer;
     transform: scale(0);
 }
+
 #cta2 {
     background: none;
     border: 1px solid black;
