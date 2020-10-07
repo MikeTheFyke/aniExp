@@ -59,21 +59,21 @@ document.getElementById('tomato-link').addEventListener('mouseout', function(){
     this.style.backgroundColor = "transparent";
 });
 /// Link2 button animations
-document.getElementById('tomato-link2').addEventListener('click', function () {
+document.getElementById('can-link').addEventListener('click', function () {
     this.style.color = "white";
     this.style.backgroundColor = "limegreen";
     document.getElementById('bullseye').src = "./images/can.png";
 });
 
-document.getElementById('tomato-link2').addEventListener('mouseover', function(){
-    TweenMax.to('#tomato-link2', 1.5, { scale: 1.5, ease: Elastic.easeOut.config(1, 0.3) } );
+document.getElementById('can-link').addEventListener('mouseover', function(){
+    TweenMax.to('#can-link', 1.5, { scale: 1.5, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "green";
     this.style.color = "limegreen";
     this.style.backgroundColor = "white";
 });
 
-document.getElementById('tomato-link2').addEventListener('mouseout', function(){
-    TweenMax.to('#tomato-link2', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+document.getElementById('can-link').addEventListener('mouseout', function(){
+    TweenMax.to('#can-link', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "black";
     this.style.color = "black";
     this.style.backgroundColor = "transparent";
