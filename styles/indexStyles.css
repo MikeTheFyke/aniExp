@@ -92,6 +92,23 @@ h1 {
   left: 0;
   width: 100vw;
   height: 10%;
+  padding-top: 20px;
   background-color: lightgray;
+  text-align: center;
+}
+
+#tomato-link {
+  background: none;
+  border: 1px solid black;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.7em;
+  padding: .5em 1em;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  outline: none;
 }
 /*# sourceMappingURL=indexStyles.css.map */
