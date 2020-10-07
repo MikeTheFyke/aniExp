@@ -6,7 +6,6 @@ TweenMax.to('.footer', 1, { opacity: 1, scale: 1 } );
 // Button 1 animations
 
 document.getElementById('cta').addEventListener('click', function () {
-    document.getElementById('bullseye').src = "./images/bullseye.png";
     TweenMax.to('.panel', 1.5, { scaleY: 1, height: '100vh', ease: Circ.easeOut } );
     TweenMax.to('#bullseye', 1, { opacity: 1, y: -100, delay: 1, ease: Bounce.easeOut } );
     TweenMax.to('p', 1, { opacity: 1, y: 20, x:50, delay: 1.4 } );
@@ -42,7 +41,6 @@ document.getElementById('cta2').addEventListener('click', function () {
 document.getElementById('tomato-link').addEventListener('click', function () {
     this.style.color = "white";
     this.style.backgroundColor = "crimson";
-    document.getElementById('bullseye').src = "./images/tomato.png";
 });
 
 document.getElementById('tomato-link').addEventListener('mouseover', function(){
@@ -62,7 +60,6 @@ document.getElementById('tomato-link').addEventListener('mouseout', function(){
 document.getElementById('can-link').addEventListener('click', function () {
     this.style.color = "white";
     this.style.backgroundColor = "limegreen";
-    document.getElementById('bullseye').src = "./images/can.png";
 });
 
 document.getElementById('can-link').addEventListener('mouseover', function(){
@@ -82,7 +79,6 @@ document.getElementById('can-link').addEventListener('mouseout', function(){
 document.getElementById('bottle-link').addEventListener('click', function () {
     this.style.color = "white";
     this.style.backgroundColor = "lightsteelblue";
-    document.getElementById('bullseye').src = "./images/bottle.png";
 });
 
 document.getElementById('bottle-link').addEventListener('mouseover', function(){
@@ -102,7 +98,6 @@ document.getElementById('bottle-link').addEventListener('mouseout', function(){
 document.getElementById('apple-link').addEventListener('click', function () {
     this.style.color = "white";
     this.style.backgroundColor = "goldenrod";
-    document.getElementById('bullseye').src = "./images/apple.png";
 });
 
 document.getElementById('apple-link').addEventListener('mouseover', function(){
