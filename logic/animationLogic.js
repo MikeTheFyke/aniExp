@@ -1,6 +1,7 @@
 TweenMax.to('h1', 1, { opacity: 1, scale: 1 } );
 TweenMax.to('#cta', 1, { opacity: 1, scale: 1 } );
 TweenMax.to('#cta2', 1, { opacity: 1, scale: 1 } );
+TweenMax.to('.footer', 1, { opacity: 1, scale: 1 } );
 
 // Button 1 animations
 
