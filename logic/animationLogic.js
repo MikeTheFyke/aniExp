@@ -1,5 +1,6 @@
 TweenMax.to('h1', 1, { opacity: 1, scale: 1 } );
-TweenMax.to('button', 1, { opacity: 1, scale: 1 } );
+TweenMax.to('#cta', 1, { opacity: 1, scale: 1 } );
+TweenMax.to('#cta2', 1, { opacity: 1, scale: 1 } );
 
 document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('.panel', 1.5, { scaleY: 1, height: '100vh', ease: Circ.easeOut } );
@@ -14,6 +15,14 @@ document.getElementById('cta').addEventListener('mouseover', function(){
 
 document.getElementById('cta').addEventListener('mouseout', function(){
     TweenMax.to('#cta', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('cta2').addEventListener('mouseover', function(){
+    TweenMax.to('#cta2', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('cta2').addEventListener('mouseout', function(){
+    TweenMax.to('#cta2', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
 });
 
 
