@@ -37,9 +37,39 @@ document.getElementById('cta2').addEventListener('click', function () {
     TweenMax.to('.panel', 1.5, { scaleY: 0, delay: 0.75, ease: Circ.easeOut } );
 })
 
-///
+/// Footer buttons animations
 
+document.getElementById('tomato-link').addEventListener('mouseover', function(){
+    TweenMax.to('#tomato-link', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
+});
 
+document.getElementById('tomato-link').addEventListener('mouseout', function(){
+    TweenMax.to('#tomato-link', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('tomato-link2').addEventListener('mouseover', function(){
+    TweenMax.to('#tomato-link2', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('tomato-link2').addEventListener('mouseout', function(){
+    TweenMax.to('#tomato-link2', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('tomato-link3').addEventListener('mouseover', function(){
+    TweenMax.to('#tomato-link3', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('tomato-link3').addEventListener('mouseout', function(){
+    TweenMax.to('#tomato-link3', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('tomato-link4').addEventListener('mouseover', function(){
+    TweenMax.to('#tomato-link4', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('tomato-link4').addEventListener('mouseout', function(){
+    TweenMax.to('#tomato-link4', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+});
 
 // TweenMax.to('SELECTOR', DURATION, { CSS TAG ELEMENTS TO ANIMATE } )
 // https://greensock.com/docs/v3/Eases
