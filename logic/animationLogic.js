@@ -40,51 +40,59 @@ document.getElementById('cta2').addEventListener('click', function () {
 /// Footer buttons animations
 
 document.getElementById('tomato-link').addEventListener('mouseover', function(){
-    TweenMax.to('#tomato-link', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
-    this.style.borderColor = "orange";
-    this.style.color = "orange";
+    TweenMax.to('#tomato-link', 1.5, { scale: 1.5, ease: Elastic.easeOut.config(1, 0.3) } );
+    this.style.borderColor = "red";
+    this.style.color = "crimson";
+    this.style.backgroundColor = "white";
 });
 
 document.getElementById('tomato-link').addEventListener('mouseout', function(){
     TweenMax.to('#tomato-link', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "black";
     this.style.color = "black";
+    this.style.backgroundColor = "transparent";
 });
 
 document.getElementById('tomato-link2').addEventListener('mouseover', function(){
-    TweenMax.to('#tomato-link2', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
+    TweenMax.to('#tomato-link2', 1.5, { scale: 1.5, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "green";
-    this.style.color = "green";
+    this.style.color = "limegreen";
+    this.style.backgroundColor = "white";
 });
 
 document.getElementById('tomato-link2').addEventListener('mouseout', function(){
     TweenMax.to('#tomato-link2', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "black";
     this.style.color = "black";
+    this.style.backgroundColor = "transparent";
 });
 
 document.getElementById('tomato-link3').addEventListener('mouseover', function(){
-    TweenMax.to('#tomato-link3', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
-    this.style.borderColor = "red";
-    this.style.color = "red";
+    TweenMax.to('#tomato-link3', 1.5, { scale: 1.5, ease: Elastic.easeOut.config(1, 0.3) } );
+    this.style.borderColor = "blue";
+    this.style.color = "lightsteelblue";
+    this.style.backgroundColor = "white";
 });
 
 document.getElementById('tomato-link3').addEventListener('mouseout', function(){
     TweenMax.to('#tomato-link3', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "black";
     this.style.color = "black";
+    this.style.backgroundColor = "transparent";
 });
 
 document.getElementById('tomato-link4').addEventListener('mouseover', function(){
-    TweenMax.to('#tomato-link4', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
-    this.style.borderColor = "blue";
-    this.style.color = "blue";
+    TweenMax.to('#tomato-link4', 1.5, { scale: 1.5, ease: Elastic.easeOut.config(1, 0.3) } );
+    this.style.borderColor = "orange";
+    this.style.color = "goldenrod";
+    this.style.backgroundColor = "white";
 });
 
 document.getElementById('tomato-link4').addEventListener('mouseout', function(){
     TweenMax.to('#tomato-link4', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
     this.style.borderColor = "black";
     this.style.color = "black";
+    this.style.backgroundColor = "transparent";
 });
 
 // TweenMax.to('SELECTOR', DURATION, { CSS TAG ELEMENTS TO ANIMATE } )
