@@ -16,11 +16,13 @@ body {
     h1 {
         font-size: 5em;
         width: 100%;
-        color: black;
+        color: crimson;
         line-height: 1em;
         transform: scale(1);
         margin: 0;
         opacity: 0;
+        transform: scaleY(0);
+        transform: scaleX(0);
     }
 
     #cta {
