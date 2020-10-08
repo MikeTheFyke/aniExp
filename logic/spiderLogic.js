@@ -37,4 +37,11 @@ document.getElementById('cta').addEventListener('click', function () {
 
     TweenMax.to('#stripeMidT', 1, { opacity:1, scaleY:1, delay: 4.25 } );
     TweenMax.to('#stripeMidB', 1, { opacity:1, scaleY:1, height: '46vh', delay: 4.25 } );
+
+    TweenMax.to('#stripe1L', 1, { rotation:-15, height:'42vh', transformOrigin:"left top", x:'-10vw', delay: 5 } );
+    TweenMax.to('#stripe2L', 1, { rotation:-13, height:'42vh', transformOrigin:"left top", delay: 5 } );
+    TweenMax.to('#stripe3L', 1, { rotation:-11, height:'41vh', transformOrigin:"left top", delay: 5 } );
+    TweenMax.to('#stripe4L', 1, { rotation:-10, height:'41vh', transformOrigin:"left top", delay: 5 } );
+    TweenMax.to('#stripe5L', 1, { rotation:-09, height:'41vh', transformOrigin:"left top", delay: 5 } );
+    TweenMax.to('#stripe6L', 1, { rotation:-07, height:'41vh', transformOrigin:"left top", delay: 5 } );
 })

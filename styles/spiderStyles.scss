@@ -60,7 +60,17 @@ body {
         border-radius: 90px;
     }
 
-    .vertStripe{
+    .vertStripeT{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 10px;
+        height: 40vh;
+        background-color: black;
+        opacity: 0;
+    }
+
+    .vertStripeB{
         position: absolute;
         top: 0;
         left: 50%;
