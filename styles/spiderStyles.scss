@@ -70,4 +70,29 @@ body {
         opacity: 0;
     }
 
+    .horizStripe{
+        position: absolute;
+        top: 40%;
+        left: 0;
+        width: 100vw;
+        height: 10px;
+        background-color: black;
+        opacity: 0;
+        transform: scaleX(0);
+        transform-origin: center;
+    }
+
+    #stripeMidT{
+        height: 40vh;
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+
+    #stripeMidB{
+        position: absolute;
+        bottom: 0;
+        height: 40vh;
+        transform: scaleY(0);
+        transform-origin: bottom;
+    }
 }
