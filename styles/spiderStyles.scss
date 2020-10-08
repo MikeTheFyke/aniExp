@@ -40,11 +40,6 @@ body {
         outline: none;
         z-index: 1;
     }
-
-    #spider{
-
-    }
-
 }
 
 .main-container{
@@ -55,13 +50,23 @@ body {
     width: 100vw;
     text-align: center;
     opacity: 0;
-}
 
-.panel{
-    margin: auto auto;
-    background-color: crimson;
-    margin-top: 40%;
-    transform: scaleY(0);
-    transform: scaleX(0);
-    border-radius: 90px;
+    .panel{
+        margin: auto auto;
+        background-color: crimson;
+        margin-top: 40%;
+        transform: scaleY(0);
+        transform: scaleX(0);
+        border-radius: 90px;
+    }
+
+    .stripe1{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 10px;
+        height: 100vh;
+        background-color: black;
+    }
+
 }
