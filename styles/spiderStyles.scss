@@ -90,9 +90,12 @@ body {
 
     #stripeMidB{
         position: absolute;
-        top: 0;
+        bottom: 0;
         left: 50%;
+        width: 10px;
         height: 40vh;
+        background-color: black;
+        opacity: 0;
         transform: scaleY(0);
         transform-origin: bottom;
     }

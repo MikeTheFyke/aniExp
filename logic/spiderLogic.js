@@ -36,5 +36,5 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#stripe4B', 2, { opacity:1, scaleX:'100vw', y:500, delay: 4 } );
 
     TweenMax.to('#stripeMidT', 1, { opacity:1, scaleY:1, delay: 4.25 } );
-    TweenMax.to('#stripeMidB', 1, { opacity:1, scaleY:1, delay: 4.25 } );
+    TweenMax.to('#stripeMidB', 1, { opacity:1, scaleY:1, height: '46vh', delay: 4.25 } );
 })
