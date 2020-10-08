@@ -36,7 +36,8 @@ h1 {
     padding: .5em 1em;
     margin-bottom: 50px;
     cursor: pointer;
-    // transform: scale(0);
+    opacity: 1;
+    transform: translateX(-50vw)
 }
 
 #cta2 {
