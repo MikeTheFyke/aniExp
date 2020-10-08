@@ -1,0 +1,80 @@
+body {
+    font-family: 'Montserrat';
+    padding: 9em;
+}
+
+h1 {
+    font-size: 5em;
+    width: 25%;
+    color: red;
+    line-height: 1em;
+    // transform: scale(0);
+}
+
+.buttons-container{
+    width: 250px;
+    height: 250px;
+}
+
+#cta {
+    background: none;
+    border: 1px solid black;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.7em;
+    padding: .5em 1em;
+    margin-bottom: 50px;
+    cursor: pointer;
+    // transform: scale(0);
+}
+
+#cta2 {
+    background: none;
+    border: 1px solid black;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.7em;
+    padding: .5em 1em;
+    cursor: pointer;
+    // transform: scale(0);
+}
+
+.panel {
+    position: absolute;
+    width: 55%;
+    bottom: 0;
+    right: 0;
+    background: #EAEAEA;
+    box-sizing: border-box;
+    padding: 15% 7%;
+    height: 100vh;
+    // transform: scaleY(0); // squish down to zero for starting point of animation
+    // transform-origin: bottom; // squish down to zero for starting point of animation
+
+    img {
+        width: 180px;
+        float: left;
+        margin-right: 50px;
+        // opacity: 0; // makes element invisible for a starting point for the animation
+        // transform: translateY(-200px); // squish down to zero for starting point of animation
+    }    
+
+    p {
+        font-size: 1.9em;
+        width: 80%;
+        // opacity: 0; // makes element invisible for a starting point for the animation
+    }
+
+    .box {
+        border: 5px solid lightgray;
+        width: 65%;
+        height: 30%;
+        position: absolute;
+        left: -7%;
+        top: 15%;
+        z-index: -1;
+        // opacity: 0; // makes element invisible for a starting point for the animation
+        // transform: scale(0);  // squish down to zero for starting point of animation
+    }
+
+}
