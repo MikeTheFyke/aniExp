@@ -3,17 +3,28 @@ body {
     padding: 9em;
 }
 
-h1 {
-    font-size: 5em;
-    width: 25%;
-    color: red;
-    line-height: 1em;
-    // transform: scale(0);
+.top-panel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 20vh;
+    background-color: #b4b5b8;
+    padding: 1em;
+    text-align: center;
+    transform: scaleY(0);
+    transform-origin: top;
 }
 
-.buttons-container{
-    width: 250px;
-    height: 250px;
+h1 {
+    font-size: 5em;
+    width: 100%;
+    color: #992b2b;
+    line-height: 1em;
+    transform: scale(1);
+    margin: 0;
+    transform: scale(0);
+    opacity: 0;
 }
 
 #cta {
@@ -39,15 +50,15 @@ h1 {
     // transform: scale(0);
 }
 
-.panel {
+.bottom-panel {
     position: absolute;
-    width: 55%;
+    width: 100vw;
+    height: 80%;
     bottom: 0;
-    right: 0;
+    left: 0;
     background: #EAEAEA;
     box-sizing: border-box;
     padding: 15% 7%;
-    height: 100vh;
     // transform: scaleY(0); // squish down to zero for starting point of animation
     // transform-origin: bottom; // squish down to zero for starting point of animation
 

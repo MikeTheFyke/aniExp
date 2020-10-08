@@ -78,38 +78,3 @@ h1 {
     }
 
 }
-
-/// footer Styles
-
-.footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-    height: 5%;
-    padding: 10px;
-    background-color: lightgray;
-    display: flex;
-    justify-content: space-evenly;
-    opacity: 0;
-    transform: scale(0);
-}
-
-.footer-link {
-    background: none;
-    border: 1px solid black;
-    border-radius: 5px;
-    font-family: 'Montserrat';
-    font-weight: bold;
-    font-size: 1.7em;
-    padding: .5em 1em;
-    cursor: pointer;
-    transform: scale(1);
-    outline: none;
-}
-
-.footer-a-tags {
-    outline: none;
-    text-decoration: none;
-    color: inherit;
-}
