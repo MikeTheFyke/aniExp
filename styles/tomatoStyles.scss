@@ -28,6 +28,7 @@ h1 {
 }
 
 #cta {
+    position: relative;
     background: none;
     border: 1px solid black;
     font-family: 'Montserrat';
@@ -40,6 +41,7 @@ h1 {
 }
 
 #cta2 {
+    position: relative;
     background: none;
     border: 1px solid black;
     font-family: 'Montserrat';
@@ -59,16 +61,16 @@ h1 {
     left: 0;
     background: #EAEAEA;
     box-sizing: border-box;
-    padding: 15% 7%;
-    // transform: scaleY(0); // squish down to zero for starting point of animation
-    // transform-origin: bottom; // squish down to zero for starting point of animation
+    padding: 5% 7%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    text-align: center;
 
     img {
-        width: 180px;
-        float: left;
-        margin-right: 50px;
-        // opacity: 0; // makes element invisible for a starting point for the animation
-        // transform: translateY(-200px); // squish down to zero for starting point of animation
+        height: 20vw;
+        max-height: 200px;
+        opacity: 0; // makes element invisible for a starting point for the animation
+        transform: translateY(-200px); // squish down to zero for starting point of animation
     }    
 
     p {
