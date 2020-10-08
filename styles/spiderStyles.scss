@@ -25,17 +25,22 @@ body {
     #cta {
         position: relative;
         background: none;
-        border: 1px solid black;
+        border-color: transparent;
         font-family: 'Montserrat';
         font-weight: bold;
         font-size: 1.7em;
         padding: .5em 1em;
         margin-right: 20px;
         cursor: pointer;
-        // opacity: 0;
-        // transform: translateX(-50vw);
+        opacity: 0;
+        transform: translateY(-50vw);
         outline: none;
     }
+
+    #spider{
+
+    }
+
 }
 
 .main-container{

@@ -27,13 +27,16 @@ body {
 .spider-container #cta {
   position: relative;
   background: none;
-  border: 1px solid black;
+  border-color: transparent;
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 1.7em;
   padding: .5em 1em;
   margin-right: 20px;
   cursor: pointer;
+  opacity: 0;
+  -webkit-transform: translateY(-50vw);
+          transform: translateY(-50vw);
   outline: none;
 }
 
