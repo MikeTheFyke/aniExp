@@ -36,7 +36,7 @@ h1 {
     padding: .5em 1em;
     margin-bottom: 50px;
     cursor: pointer;
-    opacity: 1;
+    opacity: 0;
     transform: translateX(-50vw)
 }
 
@@ -48,7 +48,8 @@ h1 {
     font-size: 1.7em;
     padding: .5em 1em;
     cursor: pointer;
-    // transform: scale(0);
+    opacity: 0;
+    transform: translateX(+50vw)
 }
 
 .bottom-panel {
