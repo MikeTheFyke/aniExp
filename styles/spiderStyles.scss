@@ -90,7 +90,8 @@ body {
 
     #stripeMidB{
         position: absolute;
-        bottom: 0;
+        top: 0;
+        left: 50%;
         height: 40vh;
         transform: scaleY(0);
         transform-origin: bottom;

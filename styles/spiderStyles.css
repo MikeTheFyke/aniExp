@@ -101,7 +101,8 @@ body {
 
 .main-container #stripeMidB {
   position: absolute;
-  bottom: 0;
+  top: 0;
+  left: 50%;
   height: 40vh;
   -webkit-transform: scaleY(0);
           transform: scaleY(0);
