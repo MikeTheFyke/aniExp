@@ -65,9 +65,11 @@ body {
         top: 0;
         left: 50%;
         width: 10px;
-        height: 40vh;
+        height: 50vh;
         background-color: black;
         opacity: 0;
+        transform: scaleY(0);
+        transform-origin: top;
     }
 
     .vertStripeB{
@@ -75,9 +77,11 @@ body {
         bottom: 0;
         left: 50%;
         width: 10px;
-        height: 46vh;
+        height: 50vh;
         background-color: black;
         opacity: 0;
+        transform: scaleY(0);
+        transform-origin: bottom;
     }
 
     .horizStripe{
@@ -89,7 +93,7 @@ body {
         background-color: black;
         opacity: 0;
         transform: scaleX(0);
-        transform-origin: center;
+        transform-origin: left;
     }
 
     #stripeMidT{
