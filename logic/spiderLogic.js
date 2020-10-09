@@ -87,5 +87,13 @@ document.getElementById('cta').addEventListener('click', function () {
     // Head shape
     TweenMax.to('.main-container', 0.25, { background: 'white', delay: 6 } );    
     TweenMax.to('#spider-head', 0.25, { scaleX: 1, scaleY: 1, delay: 6 } );
+    TweenMax.to('#spider-lefteye', .25, { x: '-20px', delay: 6 });
+    TweenMax.to('#spider-righteye', .25, { x: '20px', delay: 6 });
     TweenMax.to('.panel', 0.25, { scaleX: 0, scaleY: 0, delay: 6 } );
+    // Head Lines
+    // Middle Vertical Stripes
+    TweenMax.to('#stripeMidT', 1, { width:'5px', height:'40vh', y:'8px', transformOrigin:"top", delay: 6 } );
+    TweenMax.to('#stripeMidT', 1, { width:'5px', height:'40vh', y:'8px', transformOrigin:"top", delay: 6 } );
+
+
 })
