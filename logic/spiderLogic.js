@@ -93,7 +93,7 @@ document.getElementById('cta').addEventListener('click', function () {
     // Head Lines
     // Middle Vertical Stripes
     TweenMax.to('#stripeMidT', 1, { width:'5px', height:'40vh', y:'8px', transformOrigin:"top", delay: 6 } );
-    TweenMax.to('#stripeMidT', 1, { width:'5px', height:'40vh', y:'8px', transformOrigin:"top", delay: 6 } );
+    TweenMax.to('#stripeMidB', 1, { width:'5px', transformOrigin:"bottom", delay: 6 } );
 
 
 })
