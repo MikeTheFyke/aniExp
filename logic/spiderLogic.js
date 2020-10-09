@@ -14,15 +14,14 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('.main-container', 0.25, { background: 'crimson', delay: .25 } );    
     TweenMax.to('#cta', 0.25, { opacity:0, y:'-50vh', delay: .5} );
 // Horizontal Stripes
-TweenMax.to('#stripe1T', 1, { opacity:1, scaleX:1, delay: 1 } );
-TweenMax.to('#stripe1B', 1, { opacity:1, scaleX:1, y:150, delay: 1 } );
-TweenMax.to('#stripe2T', 1, { opacity:1, scaleX:1, y:-150, delay: 1 } );
-TweenMax.to('#stripe2B', 1, { opacity:1, scaleX:1, y:300, delay: 1 } );
-TweenMax.to('#stripe3T', 1, { opacity:1, scaleX:1, y:-275, delay: 1 } );
-TweenMax.to('#stripe3B', 1, { opacity:1, scaleX:1, y:425, delay: 1 } );
-TweenMax.to('#stripe4T', 1, { opacity:1, scaleX:1, y:-350, delay: 1 } );
-TweenMax.to('#stripe4B', 1, { opacity:1, scaleX:1, y:500, delay: 1 } );
-
+    TweenMax.to('#stripe1T', 1, { opacity:1, scaleX:1, delay: 1 } );
+    TweenMax.to('#stripe1B', 1, { opacity:1, scaleX:1, y:150, delay: 1 } );
+    TweenMax.to('#stripe2T', 1, { opacity:1, scaleX:1, y:-150, delay: 1 } );
+    TweenMax.to('#stripe2B', 1, { opacity:1, scaleX:1, y:300, delay: 1 } );
+    TweenMax.to('#stripe3T', 1, { opacity:1, scaleX:1, y:-275, delay: 1 } );
+    TweenMax.to('#stripe3B', 1, { opacity:1, scaleX:1, y:425, delay: 1 } );
+    TweenMax.to('#stripe4T', 1, { opacity:1, scaleX:1, y:-350, delay: 1 } );
+    TweenMax.to('#stripe4B', 1, { opacity:1, scaleX:1, y:500, delay: 1 } );
 
 // Top Vertical Stripes
     TweenMax.to('#stripe1L', 1, { opacity:1, x:'-10vw', scaleY:1, delay: 2 } );
@@ -85,4 +84,7 @@ TweenMax.to('#stripe4B', 1, { opacity:1, scaleX:1, y:500, delay: 1 } );
     // Spider Eyes
     TweenMax.to('#spider-lefteye', 1, { opacity: 1, scaleY:1, delay: 5 } );
     TweenMax.to('#spider-righteye', 1, { opacity: 1, scaleY:1, delay: 5 } );
+    // Head shape
+    TweenMax.to('.main-container', 0.25, { background: 'white', delay: 6 } );    
+    TweenMax.to('.panel', 0.25, { width: '900px', height: '90vh', borderRadius: '400px', delay: 6 } );
 })
