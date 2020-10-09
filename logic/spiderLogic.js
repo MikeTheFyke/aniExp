@@ -51,7 +51,7 @@ TweenMax.to('#stripe4B', 1, { opacity:1, scaleX:1, y:500, delay: 1 } );
     TweenMax.to('#stripe5BR', 2, { opacity:1, x:'41vw', scaleY:1, delay: 2.50 } );
     TweenMax.to('#stripe6BL', 2, { opacity:1, x:'-46vw', scaleY:1, delay: 2.50 } );
     TweenMax.to('#stripe6BR', 2, { opacity:1, x:'46vw', scaleY:1, delay: 2.50 } );
-//
+    // Middle Vertical Stripes
     TweenMax.to('#stripeMidT', 1, { opacity:1, scaleY:1, delay: 4 } );
     TweenMax.to('#stripeMidB', 1, { opacity:1, scaleY:1, height: '46vh', delay: 4 } );
     // Top Left Rotate
@@ -82,4 +82,7 @@ TweenMax.to('#stripe4B', 1, { opacity:1, scaleX:1, y:500, delay: 1 } );
     TweenMax.to('#stripe4BR', 1, { rotation:-10, height:'51vh', transformOrigin:"right bottom", delay: 5 } );
     TweenMax.to('#stripe5BR', 1, { rotation:-09, height:'51vh', transformOrigin:"right bottom", delay: 5 } );
     TweenMax.to('#stripe6BR', 1, { rotation:-07, height:'50vh', transformOrigin:"right bottom", delay: 5 } );
+    // Spider Eyes
+    TweenMax.to('#spider-lefteye', 1, { opacity: 1, scaleY:1, delay: 5 } );
+    TweenMax.to('#spider-righteye', 1, { opacity: 1, scaleY:1, delay: 5 } );
 })

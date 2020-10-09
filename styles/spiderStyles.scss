@@ -121,6 +121,8 @@ body {
     left: 30vw;
     height: 550px;
     width: 360px;
+    opacity: 0;
+    transform: scaleY(0);
 }
 
 #spider-lefteye{
@@ -129,4 +131,6 @@ body {
     right: 29.5vw;
     height: 550px;
     width: 360px;
+    opacity: 0;
+    transform: scaleY(0);
 }
