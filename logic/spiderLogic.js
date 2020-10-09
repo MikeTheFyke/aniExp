@@ -101,8 +101,8 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#stripe2R', 1, { rotation:20, y:'47px', x:'10vw', width:'5px', height:'39vh', delay: 6 } );
     TweenMax.to('#stripe3L', 1, { rotation:-32, y:'119px', x:'-15vw', width:'5px', height:'45vh', delay: 6 } );
     TweenMax.to('#stripe3R', 1, { rotation:32, y:'120px', x:'15vw', width:'5px', height:'45vh', delay: 6 } );
-    TweenMax.to('#stripe4L', 1, { x:'-20vw', width:'5px', delay: 6 } );
-    TweenMax.to('#stripe4R', 1, { x:'20vw', width:'5px', delay: 6 } );
+    TweenMax.to('#stripe4L', 1, { rotation:-36, y:'180px', x:'-17vw', width:'5px', height:'45vh', delay: 6 } );
+    TweenMax.to('#stripe4R', 1, { rotation:36, y:'180px', x:'17vw', width:'5px', height:'45vh', delay: 6 } );
     TweenMax.to('#stripe5L', 1, { x:'-22vw', width:'5px', delay: 6 } );
     TweenMax.to('#stripe5R', 1, { x:'22vw', width:'5px', delay: 6 } );
     TweenMax.to('#stripe6L', 1, { x:'-24vw', width:'5px', delay: 6 } );
