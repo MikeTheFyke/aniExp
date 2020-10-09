@@ -133,8 +133,8 @@ body {
 
 #spider-righteye {
   position: fixed;
-  top: 16vh;
-  left: 30vw;
+  top: 20.5vh;
+  left: 31vw;
   height: 550px;
   width: 360px;
   opacity: 0;
@@ -144,8 +144,8 @@ body {
 
 #spider-lefteye {
   position: fixed;
-  top: 16vh;
-  right: 30vw;
+  top: 20.5vh;
+  left: 52.5vw;
   height: 550px;
   width: 360px;
   opacity: 0;
