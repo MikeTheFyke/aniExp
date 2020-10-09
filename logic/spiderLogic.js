@@ -97,8 +97,8 @@ document.getElementById('cta').addEventListener('click', function () {
     // Top Vertical Stripes
     TweenMax.to('#stripe1L', 1, { rotation:-15, y:'22px', x:'-7vw', width:'5px', height:'40vh', delay: 6 } );
     TweenMax.to('#stripe1R', 1, { rotation:15, y:'22px', x:'7vw', width:'5px', height:'40vh', delay: 6 } );
-    TweenMax.to('#stripe2L', 1, { x:'-15vw', width:'5px', delay: 6 } );
-    TweenMax.to('#stripe2R', 1, { x:'15vw', width:'5px', delay: 6 } );
+    TweenMax.to('#stripe2L', 1, { rotation:-20, y:'47px', x:'-10vw', width:'5px', height:'39vh', delay: 6 } );
+    TweenMax.to('#stripe2R', 1, { rotation:20, y:'47px', x:'10vw', width:'5px', height:'39vh', delay: 6 } );
     TweenMax.to('#stripe3L', 1, { x:'-18vw', width:'5px', delay: 6 } );
     TweenMax.to('#stripe3R', 1, { x:'18vw', width:'5px', delay: 6 } );
     TweenMax.to('#stripe4L', 1, { x:'-20vw', width:'5px', delay: 6 } );
