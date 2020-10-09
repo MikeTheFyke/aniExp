@@ -130,4 +130,20 @@ body {
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
 }
+
+#spider-righteye {
+  position: absolute;
+  top: 16vh;
+  left: 30vw;
+  height: 550px;
+  width: 360px;
+}
+
+#spider-lefteye {
+  position: absolute;
+  top: 16vh;
+  right: 29.5vw;
+  height: 550px;
+  width: 360px;
+}
 /*# sourceMappingURL=spiderStyles.css.map */
