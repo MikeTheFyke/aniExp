@@ -135,38 +135,12 @@ body {
     transform: scaleY(0);
 }
 
-#spider-chin{
+#spider-head{
     position: absolute;
-    bottom: 7vh;
-    left: 39.5vw;
-    width: 450px;
-    height: 450px;
-    border-radius: 200px;
-    background-color: white;
-    transform: scaleY(0);
-    transform: scaleX(0);
-}
-
-#spider-rightcheek{
-    position: absolute;
-    bottom: 12vh;
-    left: 37vw;
-    width: 450px;
-    height: 450px;
-    border-radius: 200px;
-    background-color: white;
-    transform: scaleY(0);
-    transform: scaleX(0);
-}
-
-#spider-leftcheek{
-    position: absolute;
-    bottom: 12vh;
-    right: 37vw;
-    width: 450px;
-    height: 450px;
-    border-radius: 200px;
-    background-color: white;
+    top: 50vh;
+    right: 30vw;
+    height: 100vh;
+    width: 360px;
     transform: scaleY(0);
     transform: scaleX(0);
 }
