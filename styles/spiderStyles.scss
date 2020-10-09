@@ -134,3 +134,15 @@ body {
     opacity: 0;
     transform: scaleY(0);
 }
+
+#spider-chin{
+    position: absolute;
+    bottom: 7vh;
+    left: 39.5vw;
+    width: 450px;
+    height: 450px;
+    border-radius: 200px;
+    background-color: crimson;
+    transform: scaleY(0);
+    transform: scaleX(0);
+}

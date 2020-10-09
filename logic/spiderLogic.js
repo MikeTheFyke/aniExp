@@ -86,5 +86,6 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#spider-righteye', 1, { opacity: 1, scaleY:1, delay: 5 } );
     // Head shape
     TweenMax.to('.main-container', 0.25, { background: 'white', delay: 6 } );    
-    TweenMax.to('.panel', 0.25, { width: '900px', height: '90vh', borderRadius: '400px', delay: 6 } );
+    TweenMax.to('#spider-chin', 0.25, { background: 'crimson', scaleX: 1, scaleY: 1, delay: 5.5 } );
+    TweenMax.to('.panel', 0.25, { width: '900px', height: '80vh', borderRadius: '400px', delay: 6 } );
 })
