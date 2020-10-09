@@ -94,6 +94,18 @@ document.getElementById('cta').addEventListener('click', function () {
     // Middle Vertical Stripes
     TweenMax.to('#stripeMidT', 1, { width:'5px', height:'40vh', y:'8px', transformOrigin:"top", delay: 6 } );
     TweenMax.to('#stripeMidB', 1, { width:'5px', transformOrigin:"bottom", delay: 6 } );
-
+    // Top Vertical Stripes
+    TweenMax.to('#stripe1L', 1, { rotation:-15, y:'22px', x:'-7vw', width:'5px', height:'40vh', delay: 6 } );
+    TweenMax.to('#stripe1R', 1, { x:'7vw', width:'5px', delay: 6 } );
+    TweenMax.to('#stripe2L', 1, { x:'-15vw', width:'5px', delay: 6 } );
+    TweenMax.to('#stripe2R', 1, { x:'15vw', width:'5px', delay: 6 } );
+    TweenMax.to('#stripe3L', 1, { x:'-18vw', width:'5px', delay: 6 } );
+    TweenMax.to('#stripe3R', 1, { x:'18vw', width:'5px', delay: 6 } );
+    TweenMax.to('#stripe4L', 1, { x:'-20vw', width:'5px', delay: 6 } );
+    TweenMax.to('#stripe4R', 1, { x:'20vw', width:'5px', delay: 6 } );
+    TweenMax.to('#stripe5L', 1, { x:'-22vw', width:'5px', delay: 6 } );
+    TweenMax.to('#stripe5R', 1, { x:'22vw', width:'5px', delay: 6 } );
+    TweenMax.to('#stripe6L', 1, { x:'-24vw', width:'5px', delay: 6 } );
+    TweenMax.to('#stripe6R', 1, { x:'24vw', width:'5px', delay: 6 } );
 
 })
