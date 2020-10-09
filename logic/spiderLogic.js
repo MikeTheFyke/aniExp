@@ -129,4 +129,6 @@ document.getElementById('cta').addEventListener('click', function () {
     // Middle Vertical Stripes
     TweenMax.to('#stripeMidT', 0.25, { opacity:0, scaleX:0, delay: 6 } );
     TweenMax.to('#stripeMidB', 0.25, { opacity:0, scaleX:0, delay: 6 } );
+
+    TweenMax.to('#spider-head', 0.25, { content:'url("../images/spider-head-lines.png")', delay: 6 } );
 })
