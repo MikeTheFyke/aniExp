@@ -101,18 +101,18 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#stripe4T', 0.25, { opacity:1, scaleX:0, y:-350, transformOrigin:"center", delay: 6 } );
     TweenMax.to('#stripe4B', 0.25, { opacity:1, scaleX:0, y:500, transformOrigin:"center", delay: 6 } );
     // Top Vertical Stripes
-    TweenMax.to('#stripe1L', 1, { opacity:1, x:'-10vw', scaleY:1, delay: 2 } );
-    TweenMax.to('#stripe1R', 1, { opacity:1, x:'10vw', scaleY:1, delay: 2 } );
-    TweenMax.to('#stripe2L', 1, { opacity:1, x:'-20vw', scaleY:1, delay: 2.25 } );
-    TweenMax.to('#stripe2R', 1, { opacity:1, x:'20vw', scaleY:1, delay: 2.25 } );
-    TweenMax.to('#stripe3L', 1, { opacity:1, x:'-28vw', scaleY:1, delay: 2.25 } );
-    TweenMax.to('#stripe3R', 1, { opacity:1, x:'28vw', scaleY:1, delay: 2.25 } );
-    TweenMax.to('#stripe4L', 2, { opacity:1, x:'-35vw', scaleY:1, delay: 2.50 } );
-    TweenMax.to('#stripe4R', 2, { opacity:1, x:'35vw', scaleY:1, delay: 2.50 } );
-    TweenMax.to('#stripe5L', 2, { opacity:1, x:'-41vw', scaleY:1, delay: 2.50 } );
-    TweenMax.to('#stripe5R', 2, { opacity:1, x:'41vw', scaleY:1, delay: 2.50 } );
-    TweenMax.to('#stripe6L', 2, { opacity:1, x:'-46vw', scaleY:1, delay: 2.50 } );
-    TweenMax.to('#stripe6R', 2, { opacity:1, x:'46vw', scaleY:1, delay: 2.50 } );
+    TweenMax.to('#stripe1L', 0.25, { opacity:0, x:0, scaleX:1, scaleY:0, delay: 6 } );
+    TweenMax.to('#stripe1R', 0.25, { opacity:0, x:0, delay: 6 } );
+    TweenMax.to('#stripe2L', 0.25, { opacity:0, x:0, delay: 6 } );
+    TweenMax.to('#stripe2R', 0.25, { opacity:0, x:0, delay: 6 } );
+    TweenMax.to('#stripe3L', 0.25, { opacity:0, x:0, delay: 6 } );
+    TweenMax.to('#stripe3R', 0.25, { opacity:0, x:0, delay: 6 } );
+    TweenMax.to('#stripe4L', 0.25, { opacity:0, x:0, delay: 6 } );
+    TweenMax.to('#stripe4R', 0.25, { opacity:0, x:0, delay: 6 } );
+    TweenMax.to('#stripe5L', 0.25, { opacity:0, x:0, delay: 6 } );
+    TweenMax.to('#stripe5R', 0.25, { opacity:0, x:0, delay: 6 } );
+    TweenMax.to('#stripe6L', 0.25, { opacity:0, x:0, delay: 6 } );
+    TweenMax.to('#stripe6R', 0.25, { opacity:0, x:0, delay: 6 } );
     // Bottom Vertical Stripes
     TweenMax.to('#stripe1BL', 1, { opacity:1, x:'-10vw', scaleY:1, delay: 2 } );
     TweenMax.to('#stripe1BR', 1, { opacity:1, x:'10vw', scaleY:1, delay: 2 } );
