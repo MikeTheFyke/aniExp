@@ -22,6 +22,7 @@ body{
     transform: scaleX(0);
     transform: scaleY(0);
     opacity: 0;
+    z-index: 1;
 }
 
 #dot{
@@ -37,6 +38,7 @@ body{
     position: fixed;
     left: 45vw;
     top: 5vh;
-    width: 100px;
+    width: 85px;
     height: 500px;
+    opacity: 0;
 }
