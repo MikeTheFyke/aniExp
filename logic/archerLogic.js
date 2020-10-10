@@ -6,4 +6,5 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#dot', 0.25, { borderRadius: '0px', delay: 0.75 } );
     TweenMax.to('#dot', 1, { y: '42vh', x:'-3vw', width: '100px', height: '100px', borderRadius: '50px', delay: 2} );
     TweenMax.to('#hourhand', 2, { opacity:1, rotation:1440, transformOrigin:"center bottom", delay: 2 } );
+    TweenMax.to('#minutehand', 2, { opacity:1, rotation:1440, transformOrigin:"center bottom", delay: 2.25 } );
 })

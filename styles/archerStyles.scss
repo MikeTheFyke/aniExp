@@ -37,8 +37,89 @@ body{
 #hourhand{
     position: fixed;
     left: 45vw;
-    top: 5vh;
+    top: 14vh;
     width: 85px;
-    height: 500px;
+    height: 400px;
     opacity: 0;
+}
+
+#minutehand{
+    position: fixed;
+    left: 46vw;
+    top: 21vh;
+    width: 55px;
+    height: 300px;
+    opacity: 0;
+}
+
+
+.clockNum {
+    position: absolute;
+    font-size: 5em;
+    color: black;
+    line-height: 1em;
+    margin: 0;
+    // opacity: 0;
+    // transform: scaleY(0);
+    // transform: scaleX(0);
+}
+
+#number12{
+    top: 5vh;
+    left: 45vw;
+}
+
+#number1{
+    top: 12vh;
+    left: 57vw;
+}
+
+#number2{
+    top: 26vh;
+    left: 61vw;
+}
+
+#number3{
+    top: 41vh;
+    left: 62vw;
+}
+
+#number4{
+    bottom: 37vh;
+    left: 61vw;
+}
+
+#number5{
+    bottom: 25vh;
+    left: 56vw;
+}
+
+#number6{
+    bottom: 20vh;
+    left: 46vw;
+}
+
+#number7{
+    bottom: 25vh;
+    left: 36vw;
+}
+
+#number8{
+    bottom: 37vh;
+    left: 30vw;
+}
+
+#number9{
+    top: 41vh;
+    left: 28vw;
+}
+
+#number10{
+    top: 26vh;
+    left: 29vw;
+}
+
+#number11{
+    top: 12vh;
+    left: 33vw;
 }
