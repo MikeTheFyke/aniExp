@@ -36,4 +36,12 @@ body {
           transform: scaleX(0);
   border-radius: 500px;
 }
+
+#hourhand {
+  position: fixed;
+  left: 45vw;
+  top: 5vh;
+  width: 100px;
+  height: 500px;
+}
 /*# sourceMappingURL=archerStyles.css.map */
