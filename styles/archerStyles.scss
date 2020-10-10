@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 #cta {
     position: fixed;
     left: 45vw;
@@ -14,6 +18,17 @@
     margin-bottom: 50px;
     cursor: pointer;
     text-align: center;
-    transform: scale(1);
     outline: none;
+    transform: scaleX(0);
+    transform: scaleY(0);
+    opacity: 0;
+}
+
+#dot{
+    margin: auto auto;
+    background-color: black;
+    margin-top: 40%;
+    transform: scaleY(0);
+    transform: scaleX(0);
+    border-radius: 500px;
 }
