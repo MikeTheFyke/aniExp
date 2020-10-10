@@ -11,6 +11,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#centerDiv', 0.25, { opacity:1, delay: 2 } );
     TweenMax.to('#clockFace', 0.25, { opacity:1, delay: 2 } );
     TweenMax.to('.clockNum', 0.25, { opacity:1, delay: 2 } );
+    TweenMax.to('body', 0.25, { backgroundColor: 'black', delay: 1.75 } );
     TweenMax.to('#minutehand', 2, { opacity:1, rotation:1440, transformOrigin:"center bottom", delay: 2.25 } );
     TweenMax.to('#number3', 0.50, { y:'100vh', delay: 4 } );
     TweenMax.to('#number4', 0.50, { y:'100vh', delay: 4 } );
