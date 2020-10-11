@@ -197,4 +197,10 @@ body {
   height: 40vh;
   opacity: 0;
 }
+
+#jet {
+  position: absolute;
+  left: 47vw;
+  top: 14vh;
+}
 /*# sourceMappingURL=archerStyles.css.map */
