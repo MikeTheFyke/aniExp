@@ -28,5 +28,5 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#rightDiv', 2, { y:'-100vh', x:'50vw', delay: 5 } );
     TweenMax.to('#leftDiv', 2, { y:'-100vh', x:'-50vw', delay: 5 } );
     TweenMax.to('#clockFace', 1, { scaleX: 1.5, scaleY: 1.5, delay: 5 } );
-    TweenMax.to('#clockFace', 1, { scaleX:.25, scaleY:.25, y:'5vh', x:'-10vw', delay: 6 } );
+    TweenMax.to('#clockFace', 1, { scaleX:.05, scaleY:.05, y:'5vh', x:'-10vw', delay: 6 } );
 })
