@@ -27,6 +27,9 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#number11', 1, { y:'100vh', delay: 4.50 } );
     TweenMax.to('#rightDiv', 2, { y:'-100vh', x:'50vw', delay: 5 } );
     TweenMax.to('#leftDiv', 2, { y:'-100vh', x:'-50vw', delay: 5 } );
+    TweenMax.to('#hourhand', 0.5, { opacity:0, delay: 5 } );
+    TweenMax.to('#minutehand', 0.5, { opacity:0, delay: 5 } );
+    TweenMax.to('#dot', 0.5, { opacity:0, delay: 5 } );
     TweenMax.to('#clockFace', 1, { scaleX: 1.5, scaleY: 1.5, delay: 5 } );
     TweenMax.to('#clockFace', 1, { scaleX:.05, scaleY:.05, y:'5vh', x:'-10vw', delay: 6 } );
 })
