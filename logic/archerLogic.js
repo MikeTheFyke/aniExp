@@ -29,10 +29,9 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#leftDiv', 2, { y:'-100vh', x:'-50vw', delay: 5 } );
     TweenMax.to('#hourhand', 0.5, { opacity:0, delay: 5.5 } );
     TweenMax.to('#minutehand', 0.5, { opacity:0, delay: 5.5 } );
-    TweenMax.to('#jet', 0.5, { opacity: 1, delay: 5 } );
-    TweenMax.to('#jet', 1, { opacity: 1, scaleX: 1, delay: 5.5 } );
+    TweenMax.to('#jet', 0.5, { opacity: 1, scaleX: 1, delay: 5.5 } );
     TweenMax.to('#dot', 0.5, { opacity:0, delay: 6 } );
     TweenMax.to('#jet', 1, { y: '-100vh', delay: 6.5 } );
-    TweenMax.to('#clockFace', 1, { scaleX: 1.5, scaleY: 1.5, delay: 6.5 } );
-    TweenMax.to('#clockFace', 1, { scaleX:.05, scaleY:.05, y:'5vh', x:'-10vw', delay: 6.5 } );
+    TweenMax.to('#clockFace', 1, { scaleX: 1.5, scaleY: 1.5, delay: 7.5 } );
+    TweenMax.to('#clockFace', 1, { scaleX:.05, scaleY:.05, y:'5vh', x:'-10vw', delay: 8.5 } );
 })
