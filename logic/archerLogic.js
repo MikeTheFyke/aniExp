@@ -33,5 +33,5 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#dot', 0.5, { opacity:0, delay: 6 } );
     TweenMax.to('#jet', 1, { y: '-100vh', delay: 6.5 } );
     TweenMax.to('#clockFace', 1, { scaleX: 1.5, scaleY: 1.5, delay: 7.5 } );
-    TweenMax.to('#clockFace', 1, { scaleX:.05, scaleY:.05, y:'5vh', x:'-10vw', delay: 8.5 } );
+    TweenMax.to('#clockFace', 1, { scaleX:.03, scaleY:.03, y:'16vh', x:'-24.5vw', delay: 8.5 } );
 })
