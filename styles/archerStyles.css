@@ -177,6 +177,7 @@ body {
   left: 40px;
   width: 45vw;
   height: 30vh;
+  opacity: 0;
 }
 
 #blueLeft2 {
@@ -185,6 +186,7 @@ body {
   left: 40px;
   width: 45vw;
   height: 25vh;
+  opacity: 0;
 }
 
 #blueRight1 {
@@ -193,5 +195,6 @@ body {
   right: 40px;
   width: 45vw;
   height: 40vh;
+  opacity: 0;
 }
 /*# sourceMappingURL=archerStyles.css.map */
