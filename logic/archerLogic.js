@@ -32,7 +32,13 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#jet', 0.5, { opacity: 1, scaleX: 1, delay: 5.5 } );
     TweenMax.to('#dot', 0.5, { opacity:0, delay: 6 } );
     TweenMax.to('#jet', 1, { y: '-100vh', delay: 6.5 } );
-    TweenMax.to('#clockFace', 1, { scaleX: 1.5, scaleY: 1.5, delay: 7.5 } );
-    TweenMax.to("#mikefyke-text", 1, { opacity: 1, delay: 8 } );
+    TweenMax.to('#clockFace', 1, { zIndex: 3, scaleX: 1.5, scaleY: 1.5, delay: 7.5 } );
+    TweenMax.to("#blueLeft1", 1, { opacity: 1, delay: 7.5 } );
+    TweenMax.to("#blueLeft2", 1, { opacity: 1, delay: 7.5 } );
+    TweenMax.to("#blueRight1", 1, { opacity: 1, delay: 7.5 } );
+    TweenMax.to("#blueRight2", 1, { opacity: 1, delay: 7.5 } );
+    TweenMax.to("#blueRight3", 1, { opacity: 1, delay: 7.5 } );
+    TweenMax.to("#blueRight4", 1, { opacity: 1, delay: 7.5 } );
+    TweenMax.to("#mikefyke-text", 1, { zIndex: 2, opacity: 1, delay: 8 } );
     TweenMax.to('#clockFace', 1, { scaleX:.03, scaleY:.03, y:'16vh', x:'-24.5vw', delay: 8.5 } );
 })
