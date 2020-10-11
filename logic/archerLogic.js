@@ -25,4 +25,6 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#number9', 0.50, { y:'100vh', delay: 4.25 } );
     TweenMax.to('#number1', 1, { y:'100vh', delay: 4.50 } );
     TweenMax.to('#number11', 1, { y:'100vh', delay: 4.50 } );
+    TweenMax.to('#rightDiv', 2, { y:'-100vh', x:'50vw', delay: 5 } );
+    TweenMax.to('#leftDiv', 2, { y:'-100vh', x:'-50vw', delay: 5 } );
 })
