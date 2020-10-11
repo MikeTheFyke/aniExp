@@ -203,7 +203,7 @@ body {
   left: 40vw;
   top: 14vh;
   opacity: 0;
-  -webkit-transform: scaleY(0);
-          transform: scaleY(0);
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
 }
 /*# sourceMappingURL=archerStyles.css.map */
