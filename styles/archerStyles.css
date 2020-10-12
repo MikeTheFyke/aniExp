@@ -347,4 +347,10 @@ body {
   left: 800px;
   opacity: 0;
 }
+
+#signal-pulse {
+  position: absolute;
+  bottom: 825px;
+  left: 885px;
+}
 /*# sourceMappingURL=archerStyles.css.map */
