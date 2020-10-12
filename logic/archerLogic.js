@@ -56,9 +56,11 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to(".bulletDivs", 2, { x: '450vw', delay: 11 } );
     TweenMax.to("#bulletStreak", 0.5, { opacity: 1, delay: 11 } );
     
-    TweenMax.to("#clockFace", 1, { x:'25px', y:'-300px', delay: 11.25 } );
+    TweenMax.to("#clockFace", 1, { x:'25px', y:'-350px', delay: 11.25 } );
     TweenMax.to("#bulletStreak", 1, { opacity: 0, x:'725px', y:'-200px', delay: 11.25 } );
     TweenMax.to("#blueKickDiv", 0.5, { opacity: 1, scaleX: 1, scaleY: 1, delay: 11.5 } );
     TweenMax.to("#blueKickDiv", 0.5, { scaleX:0, scaleY:0, delay: 12.5 } );
 
+    TweenMax.to("#clockFace", 0.5, { x:'-425px', y:'-45px', scaleY: 0.75, scaleX: 0.75, delay: 12.5 } );
+    
 })
