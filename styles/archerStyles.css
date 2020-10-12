@@ -357,10 +357,11 @@ body {
 
 #buildingsDiv {
   position: absolute;
-  top: 325px;
-  left: 885px;
+  bottom: -700px;
+  right: -950px;
   height: 700px;
   width: 950px;
+  opacity: 0;
 }
 
 #buildings {
