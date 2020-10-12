@@ -62,7 +62,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#blueKickDiv", 0.5, { scaleX:0, scaleY:0, delay: 12.5 } );
     TweenMax.to("#clockFace", 0.5, { x:'-465px', y:'85px', scaleY: 0.75, scaleX: 0.75, delay: 12.5 } );
     
-    TweenMax.to("#mikyung-text", 0.5, { opacity: 1, delay: 12.75} );
+    TweenMax.to("#mikyung-text", 0.5, { opacity: 1, y:'-450px', delay: 12.75} );
     TweenMax.to("#necklaceDiv", 0.5, { opacity: 1, scaleX: 1, scaleY: 1, transformOrigin:"center", delay: 12.75} );
     TweenMax.to("#clockFace", 0.5, { scaleY: 0.05, scaleX: 0.05, delay: 13 } );
 })
