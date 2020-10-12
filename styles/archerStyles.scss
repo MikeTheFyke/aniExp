@@ -238,3 +238,36 @@ body{
     bottom: 34vh;
     opacity: 0;
 }
+
+.bulletDivs{
+    display: flex;
+    justify-content: space-evenly;
+    width: 4000px;
+    height: 100vh;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.purpleDiv{
+    background-color: #cd5cd1;
+    height: 900px;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.magentaDiv{
+    background-color: #bd2d81;
+    height: 900px;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tealDiv{
+    background-color: #8bf0e4;
+    height: 900px;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
