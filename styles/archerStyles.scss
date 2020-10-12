@@ -297,3 +297,15 @@ body{
     transform: scaleX(0);
     transform: scaleY(0);
 }
+
+#necklaceDiv{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    width: 450px;
+    height: 900px;
+    background-color: #cc6ccc;
+    opacity: 0;
+    transform: scaleX(0);
+    transform: scaleY(0);
+}
