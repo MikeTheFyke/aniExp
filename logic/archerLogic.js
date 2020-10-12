@@ -72,9 +72,9 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#clockFace", 0.5, { scaleY: 0.05, scaleX: 0.05, delay: 13 } );
     TweenMax.to("#heart", 1, { y:'100vh', rotation: -45, delay: 15.25} );
     TweenMax.to("#mikyung-text", 0.5, { rotation: 90, delay: 15.50 } );
-    TweenMax.to("#clockFace", 0.5, { x:'300px', y:'-250px', delay: 15.50 });
+    TweenMax.to("#clockFace", 0.5, { x:'300px', y:'-350px', delay: 15.50 });
     TweenMax.to("#necklaceDiv", 0.75, { x:'-100vw', delay: 15.75 } );
     TweenMax.to("#mikyung-text", 0.5, { y:'100vh', delay: 15.75 } );
     
-    TweenMax.to("#clockFace", 1, { x:'-100px', y:'50px', delay: 16 });
+    TweenMax.to("#clockFace", 1, { x:'-100px', y:'25px', delay: 16 });
 })
