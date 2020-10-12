@@ -319,4 +319,9 @@ body {
   -webkit-transform: scaleY(0);
           transform: scaleY(0);
 }
+
+#judy {
+  width: 100%;
+  height: 100%;
+}
 /*# sourceMappingURL=archerStyles.css.map */
