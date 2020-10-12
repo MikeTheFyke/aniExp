@@ -76,6 +76,6 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#necklaceDiv", 0.75, { x:'-100vw', delay: 15.75 } );
     TweenMax.to("#mikyung-text", 0.5, { y:'100vh', delay: 15.75 } );
     
-    TweenMax.to("#clockFace", 1, { x:'-145px', y:'-175px', delay: 16 });
+    TweenMax.to("#clockFace", 1, { x:'-150px', y:'-175px', delay: 16 });
     TweenMax.to("#parnell-text", 1, { opacity: 1, y: '-750px', delay: 16} );
 })
