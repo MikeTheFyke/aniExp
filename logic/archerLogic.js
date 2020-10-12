@@ -55,4 +55,8 @@ document.getElementById('cta').addEventListener('click', function () {
 
     TweenMax.to(".bulletDivs", 2, { x: '450vw', delay: 11 } );
     TweenMax.to("#bulletStreak", 0.5, { opacity: 1, delay: 11 } );
+    
+    TweenMax.to("#clockFace", 1, { x:'25px', y:'-300px', delay: 11.25 } );
+    TweenMax.to("#bulletStreak", 1, { opacity: 0, x:'725px', y:'-200px', delay: 11.25 } );
+    TweenMax.to("#blueKickDiv", 0.5, { opacity: 1, delay: 11.5 } );
 })
