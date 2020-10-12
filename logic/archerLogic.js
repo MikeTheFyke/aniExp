@@ -44,4 +44,12 @@ document.getElementById('cta').addEventListener('click', function () {
 
     TweenMax.to('#clockFace', 1, { x:'-575px', y:'15px', delay: 9.5 } );
     TweenMax.to("#mikefyke-text", 1, { x:'-50px', y:'-180px', delay: 9.5 } );
+
+    TweenMax.to("#blueLeft1",  1, { x:'100vw', delay: 10.5 } );
+    TweenMax.to("#blueLeft2",  1, { x:'100vw', delay: 10.5 } );
+    TweenMax.to("#blueRight1", 1, { x:'100vw', delay: 10.5 } );
+    TweenMax.to("#blueRight2", 1, { x:'100vw', delay: 10.5 } );
+    TweenMax.to("#blueRight3", 1, { x:'100vw', delay: 10.5 } );
+    TweenMax.to("#blueRight4", 1, { x:'100vw', delay: 10.5 } );
+    TweenMax.to("#mikefyke-text", 1, { x:'100vw', delay: 10.5 } );
 })
