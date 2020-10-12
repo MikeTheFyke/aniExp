@@ -331,4 +331,12 @@ body {
   left: 550px;
   opacity: 0;
 }
+
+#heart {
+  position: absolute;
+  top: 100px;
+  right: 550px;
+  height: 450px;
+  width: 450px;
+}
 /*# sourceMappingURL=archerStyles.css.map */
