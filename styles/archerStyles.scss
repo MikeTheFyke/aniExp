@@ -280,8 +280,17 @@ body{
     top: 44.5vh;
     left: 22.5vw;
     height: 25px;
-    width: 350px;
+    width: 2000px;
     background-color: black;
     opacity: 0;
-    transform: scaleX(0);
+}
+
+#blueKickDiv{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #4469e3;
+    width: 90vw;
+    height: 80vh;
+    margin: 40px 100px;
 }
