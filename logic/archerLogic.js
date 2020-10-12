@@ -52,5 +52,5 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#blueRight3", 1, { x:'100vw', delay: 10.5 } );
     TweenMax.to("#blueRight4", 1, { x:'100vw', delay: 10.5 } );
     TweenMax.to("#mikefyke-text", 1, { x:'100vw', delay: 10.5 } );
-    TweenMax.to(".bulletDivs", 1, { x: '200vw', delay: 11 } );
+    TweenMax.to(".bulletDivs", 2, { x: '450vw', delay: 11 } );
 })
