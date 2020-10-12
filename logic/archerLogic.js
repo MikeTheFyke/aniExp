@@ -41,4 +41,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#blueRight4", 1, { opacity: 1, delay: 7.5 } );
     TweenMax.to("#mikefyke-text", 1, { zIndex: 2, opacity: 1, delay: 8 } );
     TweenMax.to('#clockFace', 1, { scaleX:.03, scaleY:.03, y:'16vh', x:'-24.5vw', delay: 8.5 } );
+
+    TweenMax.to('#clockFace', 1, { x:'-575px', y:'15px', delay: 9.5 } );
+    TweenMax.to("#mikefyke-text", 1, { x:'-50px', y:'-180px', delay: 9.5 } );
 })
