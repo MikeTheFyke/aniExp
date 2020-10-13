@@ -39,6 +39,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#blueRight2", 1, { opacity: 1, delay: 7.5 } );
     TweenMax.to("#blueRight3", 1, { opacity: 1, delay: 7.5 } );
     TweenMax.to("#blueRight4", 1, { opacity: 1, delay: 7.5 } );
+
     TweenMax.to("#mikefyke-text", 1, { zIndex: 2, opacity: 1, delay: 8 } );
     TweenMax.to('#clockFace', 1, { scaleX:.03, scaleY:.03, y:'16vh', x:'-24.5vw', delay: 8.5 } );
 
@@ -122,7 +123,7 @@ document.getElementById('cta').addEventListener('click', function () {
 
     TweenMax.to("#glassDiv", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
     TweenMax.to("#clockFace", 1, {x:'-800px', scaleX: 0.05, scaleY: 0.05, delay: 26.5});
-    TweenMax.to("#walter-text", 1, { y:'-825px', delay: 26.5})
+    TweenMax.to("#walter-text", 1, { y:'-800px', delay: 26.5})
 
     TweenMax.to("#bulletStreak", 0.25, {opacity: 0, delay: 28})
     TweenMax.to("#clockFace", .75, { x:'-850px', delay: 27.5})
