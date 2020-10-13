@@ -368,4 +368,13 @@ body {
   width: 100%;
   height: 100%;
 }
+
+#parnellDiv {
+  position: absolute;
+  bottom: 225px;
+  right: 300px;
+  width: 1050px;
+  height: 500px;
+  background-color: #aff07d;
+}
 /*# sourceMappingURL=archerStyles.css.map */

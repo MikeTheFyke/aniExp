@@ -76,7 +76,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#necklaceDiv", 0.75, { x:'-100vw', delay: 15.75 } );
     TweenMax.to("#mikyung-text", 0.5, { y:'100vh', delay: 15.75 } );
     
-    TweenMax.to("#buildingsDiv", 2, { opacity: 1, x:'-150vw', y:'-150vh', delay: 15.75} );
+    TweenMax.to("#buildingsDiv", 3, { opacity: 1, x:'-150vw', y:'-150vh', delay: 15.75} );
 
     TweenMax.to("#signal-pulse", 0.5, { opacity: 1, scaleX: 3, scaleY: 3, delay: 17.75 } );
     TweenMax.to("#signal-pulse", 0.5, { scaleX: 2, scaleY: 2, delay: 18.25 } );
@@ -86,4 +86,6 @@ document.getElementById('cta').addEventListener('click', function () {
 
     TweenMax.to("#clockFace", 1, { x:'-150px', y:'-175px', delay: 16.5 });
     TweenMax.to("#parnell-text", 1, { opacity: 1, y: '-750px', delay: 17.5} );
+
+    
 })
