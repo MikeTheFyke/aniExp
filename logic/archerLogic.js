@@ -139,6 +139,8 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#o-text", 0.5, { y:'1200px', delay: 30.75});
     TweenMax.to("#n-text", 0.5, { y:'1200px', delay: 31});
 
+    TweenMax.to("#happy-text", 0.5, { scaleY: 1, delay: 32});
+
     TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#e9ed6d', delay: 32})
     TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#92ed61', delay: 35})
     TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#63ebeb', delay: 38})

@@ -602,5 +602,7 @@ body {
   position: absolute;
   top: 100px;
   left: 300px;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
 }
 /*# sourceMappingURL=archerStyles.css.map */
