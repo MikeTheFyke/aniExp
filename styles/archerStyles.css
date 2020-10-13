@@ -371,10 +371,11 @@ body {
 
 #parnellDiv {
   position: absolute;
-  bottom: 225px;
-  right: 300px;
+  bottom: -225px;
+  right: -300px;
   width: 1050px;
   height: 500px;
   background-color: #aff07d;
+  opacity: 0;
 }
 /*# sourceMappingURL=archerStyles.css.map */

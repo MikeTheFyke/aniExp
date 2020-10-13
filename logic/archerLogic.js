@@ -30,7 +30,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#hourhand', 0.5, { opacity:0, delay: 5.5 } );
     TweenMax.to('#minutehand', 0.5, { opacity:0, delay: 5.5 } );
     TweenMax.to('#jet', 0.5, { opacity: 1, scaleX: 1, delay: 5.5 } );
-    TweenMax.to('#dot', 0.5, { opacity:0, delay: 6 } );
+    TweenMax.to('#dot', 0.25, { opacity:0, delay: 5.5 } );
     TweenMax.to('#jet', 1, { y: '-100vh', delay: 6.5 } );
     TweenMax.to('#clockFace', 1, { zIndex: 3, scaleX: 1.5, scaleY: 1.5, delay: 7.5 } );
     TweenMax.to("#blueLeft1", 1, { opacity: 1, delay: 7.5 } );
@@ -82,10 +82,14 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#signal-pulse", 0.5, { scaleX: 2, scaleY: 2, delay: 18.25 } );
     TweenMax.to("#signal-pulse", 0.5, { scaleX: 3, scaleY: 3, delay: 18.75 } );
     TweenMax.to("#signal-pulse", 0.5, { scaleX: 2, scaleY: 2, delay: 19.25 } );
-    TweenMax.to("#signal-pulse", 0.5, { scaleX: 1, scaleY: 1, delay: 19.75 } );
+    TweenMax.to("#signal-pulse", 0.5, { opacity:0, scaleX: 1, scaleY: 1, delay: 19.75 } );
 
     TweenMax.to("#clockFace", 1, { x:'-150px', y:'-175px', delay: 16.5 });
     TweenMax.to("#parnell-text", 1, { opacity: 1, y: '-750px', delay: 17.5} );
 
+    TweenMax.to("#parnellDiv", 1, { opacity: 1, x:'-600px', y:'-450px', delay: 17.5} ) ;
     
+    TweenMax.to("#parnell-text", 0.5, { x:'-625px', y: '-775px', delay: 20.25} );
+    TweenMax.to("#clockFace", 0.5, { x:'-775px', y:'-200px', delay: 20.25 });
+    TweenMax.to("#parnellDiv", 0.5, { x:'-1125px', y:'-475', delay: 20.25});
 })
