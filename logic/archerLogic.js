@@ -124,9 +124,12 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#clockFace", 1, {x:'-800px', scaleX: 0.05, scaleY: 0.05, delay: 26.5});
     TweenMax.to("#walter-text", 1, { y:'-825px', delay: 26.5})
 
+    TweenMax.to("#bulletStreak", 0.25, {opacity: 0, delay: 28.5})
     TweenMax.to("#clockFace", .75, { x:'-850px', delay: 27.5})
     TweenMax.to("#glassDiv", 1, { y:'-150vh', delay: 28.25});
     TweenMax.to("#walter-text", 1, { y:'-150vh', delay: 28.25});
 
     TweenMax.to("#clockFace", 1, { x:'-775px', delay: 28.5});
+
+    TweenMax.to(".finalRedDivs", 1, { y:'-900px', delay: 29})
 })
