@@ -560,4 +560,41 @@ body {
   height: 600px;
   width: 500px;
 }
+
+.letter-texts {
+  position: absolute;
+  bottom: 75px;
+  right: 100px;
+  background-color: transparent;
+}
+
+#j-text {
+  margin-right: 5px;
+  width: 275px;
+  height: 300px;
+}
+
+#a-text {
+  margin-right: 5px;
+  width: 275px;
+  height: 300px;
+}
+
+#s-text {
+  margin-right: 5px;
+  width: 275px;
+  height: 300px;
+}
+
+#o-text {
+  margin-right: 5px;
+  width: 275px;
+  height: 300px;
+}
+
+#n-text {
+  margin-right: 5px;
+  width: 275px;
+  height: 300px;
+}
 /*# sourceMappingURL=archerStyles.css.map */
