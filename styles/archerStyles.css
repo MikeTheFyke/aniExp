@@ -406,4 +406,32 @@ body {
   width: 1050px;
   height: 800px;
 }
+
+.orangeDivs {
+  background-color: #f5754e;
+}
+
+#orangeDiv1 {
+  position: absolute;
+  bottom: -800px;
+  right: 100px;
+  width: 650px;
+  height: 800px;
+}
+
+#orangeDiv2 {
+  position: absolute;
+  bottom: -800px;
+  right: 775px;
+  width: 350px;
+  height: 800px;
+}
+
+#orangeDiv3 {
+  position: absolute;
+  bottom: -800px;
+  right: 1150px;
+  width: 250px;
+  height: 800px;
+}
 /*# sourceMappingURL=archerStyles.css.map */
