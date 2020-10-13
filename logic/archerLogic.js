@@ -84,7 +84,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#signal-pulse", 0.5, { scaleX: 2, scaleY: 2, delay: 19.25 } );
     TweenMax.to("#signal-pulse", 0.5, { opacity:0, scaleX: 1, scaleY: 1, delay: 19.75 } );
 
-    TweenMax.to("#clockFace", 1, { x:'-150px', y:'-175px', delay: 16.5 });
+    TweenMax.to("#clockFace", 1, { x:'-150px', y:'-175px', scaleX: 0.05, scaleY: 0.05, delay: 16.5 });
     TweenMax.to("#parnell-text", 1, { opacity: 1, y: '-750px', delay: 17.5} );
 
     TweenMax.to("#parnellDiv", 1, { opacity: 1, x:'-600px', y:'-450px', delay: 17.5} ) ;
@@ -92,4 +92,8 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#parnell-text", 0.5, { x:'-625px', y: '-775px', delay: 20.25} );
     TweenMax.to("#clockFace", 0.5, { x:'-775px', y:'-200px', delay: 20.25 });
     TweenMax.to("#parnellDiv", 0.5, { x:'-1125px', y:'-475', delay: 20.25});
+
+    TweenMax.to("#clockFace", 0.5, { x:'-600px', y:'-50px', delay: 20.75 });
+    TweenMax.to("#parnell-text", 1, { x:'-425px', y: '-150vh', delay: 20.75} );
+    TweenMax.to("#parnellDiv", 1, { x:'-925px', y:'-150vh', delay: 20.75});
 })
