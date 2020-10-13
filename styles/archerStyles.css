@@ -440,4 +440,91 @@ body {
   bottom: 200px;
   left: -700px;
 }
+
+.runDiv1 {
+  position: absolute;
+  top: 180px;
+  left: -750px;
+  width: 650px;
+  height: 810px;
+}
+
+#runPurple1 {
+  background-color: #a44ef5;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+#runPurple2 {
+  background-color: #a44ef5;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+#runPurple3 {
+  background-color: #a44ef5;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+.runDiv2 {
+  position: absolute;
+  top: 180px;
+  left: -750px;
+  width: 650px;
+  height: 810px;
+}
+
+#runBlue1 {
+  background-color: #4e88f5;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+#runBlue2 {
+  background-color: #4e88f5;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+#runBlue3 {
+  background-color: #4e88f5;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+.runDiv3 {
+  position: absolute;
+  top: 180px;
+  left: -750px;
+  width: 650px;
+  height: 810px;
+}
+
+#runTeal1 {
+  background-color: #a6eded;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+#runTeal2 {
+  background-color: #a6eded;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+#runTeal3 {
+  background-color: #a6eded;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=archerStyles.css.map */

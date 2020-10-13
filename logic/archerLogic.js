@@ -110,4 +110,8 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#taylor-text", 0.5, {x:'200vw', delay: 24});
     TweenMax.to("#clockFace", 1, { x:'-450px', y:'-50px', scaleX: 1, scaleY: 1, delay: 24});
     TweenMax.to("#clockFace", 1, { x:'-450px', y:'-50px', scaleX: 0.05, scaleY: 0.05, delay: 25});
+
+    TweenMax.to(".runDiv3", 3, {x:'250vw', delay: 25});
+    TweenMax.to(".runDiv2", 3, {x:'250vw', delay: 25.25});
+    TweenMax.to(".runDiv1", 3, {x:'250vw', delay: 25.50});
 })
