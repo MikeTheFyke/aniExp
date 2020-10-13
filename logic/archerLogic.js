@@ -117,8 +117,9 @@ document.getElementById('cta').addEventListener('click', function () {
 
     TweenMax.to("#bulletStreak", 0.25, { x:'110px', y:'-70px', scaleY:3.75, opacity: 1, delay: 25 } );
 
-    TweenMax.to("#clockFace", 1, {x:'125px', delay: 26.5});
-    TweenMax.to("#bulletStreak", 0.25, { opacity:0, x:'800px', delay: 27})
+    TweenMax.to("#clockFace", 1, {x:'225px', delay: 26.5});
+    TweenMax.to("#bulletStreak", 0.75, { x:'-200px', delay: 26.5})
 
     TweenMax.to("#glassDiv", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+    TweenMax.to("#clockFace", 0.5, {x:'-450px', scaleX: 0.05, scaleY: 0.05, delay: 26.5});
 })
