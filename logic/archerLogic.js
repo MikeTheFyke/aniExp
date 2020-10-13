@@ -124,12 +124,20 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#clockFace", 1, {x:'-800px', scaleX: 0.05, scaleY: 0.05, delay: 26.5});
     TweenMax.to("#walter-text", 1, { y:'-825px', delay: 26.5})
 
-    TweenMax.to("#bulletStreak", 0.25, {opacity: 0, delay: 28.5})
+    TweenMax.to("#bulletStreak", 0.25, {opacity: 0, delay: 28})
     TweenMax.to("#clockFace", .75, { x:'-850px', delay: 27.5})
     TweenMax.to("#glassDiv", 1, { y:'-150vh', delay: 28.25});
     TweenMax.to("#walter-text", 1, { y:'-150vh', delay: 28.25});
 
     TweenMax.to("#clockFace", 1, { x:'-775px', delay: 28.5});
 
-    TweenMax.to(".finalRedDivs", 1, { y:'-900px', delay: 29})
+    TweenMax.to(".finalRedDivs", 1, { y:'-1000px', delay: 29})
+
+    TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#e9ed6d', delay: 32})
+
+    TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#92ed61', delay: 35})
+
+    TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#63ebeb', delay: 38})
+
+    TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#c06ded', delay: 41})
 })
