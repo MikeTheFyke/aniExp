@@ -527,4 +527,13 @@ body {
   height: 350px;
   margin-bottom: 20px;
 }
+
+#glassDiv {
+  position: absolute;
+  top: 60px;
+  left: -1600px;
+  background-color: #d99338;
+  width: 1600px;
+  height: 1900px;
+}
 /*# sourceMappingURL=archerStyles.css.map */
