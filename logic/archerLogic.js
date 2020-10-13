@@ -102,4 +102,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#clockFace", 1, { x:'-650px', y:'350px', delay: 21.5 });
     TweenMax.to(".orangeDivs", 2, { y:'-1100px', delay: 21 });
     TweenMax.to("#taylor-text", 1, { x:'1000px', delay: 22});
+
+    TweenMax.to("#clockFace", 1, { x:'-350px', y:'275px', scaleX: 0.15, scaleY: 0.15, delay: 23 });
+    TweenMax.to("#taylor-text", 1, {x:'1400px', scaleX: 1.5, scaleY: 1.5, delay: 23});
 })
