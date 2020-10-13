@@ -434,4 +434,10 @@ body {
   width: 250px;
   height: 800px;
 }
+
+#taylor-text {
+  position: absolute;
+  bottom: 200px;
+  left: -700px;
+}
 /*# sourceMappingURL=archerStyles.css.map */
