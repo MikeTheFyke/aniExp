@@ -542,4 +542,22 @@ body {
   bottom: -215px;
   left: 250px;
 }
+
+#finalRedDiv1 {
+  position: absolute;
+  bottom: 350px;
+  right: 700px;
+  background-color: #e0432b;
+  height: 600px;
+  width: 675px;
+}
+
+#finalRedDiv2 {
+  position: absolute;
+  bottom: 350px;
+  right: 300px;
+  background-color: #e0432b;
+  height: 600px;
+  width: 375px;
+}
 /*# sourceMappingURL=archerStyles.css.map */
