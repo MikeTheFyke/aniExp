@@ -128,5 +128,5 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#glassDiv", 1, { y:'-150vh', delay: 28.25});
     TweenMax.to("#walter-text", 1, { y:'-150vh', delay: 28.25});
 
-    
+    TweenMax.to("#clockFace", 1, { x:'-775px', delay: 28.5});
 })
