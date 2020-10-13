@@ -133,11 +133,14 @@ document.getElementById('cta').addEventListener('click', function () {
 
     TweenMax.to(".finalRedDivs", 1, { y:'-1000px', delay: 29})
 
+    TweenMax.to("#j-text", 0.5, { y:'1200px', delay: 30});
+    TweenMax.to("#a-text", 0.5, { y:'1200px', delay: 30.25});
+    TweenMax.to("#s-text", 0.5, { y:'1200px', delay: 30.5});
+    TweenMax.to("#o-text", 0.5, { y:'1200px', delay: 30.75});
+    TweenMax.to("#n-text", 0.5, { y:'1200px', delay: 31});
+
     TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#e9ed6d', delay: 32})
-
     TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#92ed61', delay: 35})
-
     TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#63ebeb', delay: 38})
-
     TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#c06ded', delay: 41})
 })

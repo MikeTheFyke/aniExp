@@ -563,7 +563,7 @@ body {
 
 .letter-texts {
   position: absolute;
-  bottom: 75px;
+  top: -350px;
   right: 100px;
   background-color: transparent;
 }
