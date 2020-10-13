@@ -98,4 +98,6 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#parnellDiv", 1, { x:'-925px', y:'-150vh', delay: 20.75});
 
     TweenMax.to(".yellowDivs", 2, { y:'-200vh', delay: 21} );
+
+    TweenMax.to("#clockFace", 1, { x:'-650px', y:'300px', delay: 21.5 });
 })
