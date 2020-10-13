@@ -40,7 +40,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#blueRight3", 1, { opacity: 1, delay: 7.5 } );
     TweenMax.to("#blueRight4", 1, { opacity: 1, delay: 7.5 } );
 
-    TweenMax.to("#mikefyke-text", 1, { zIndex: 2, opacity: 1, delay: 8 } );
+    TweenMax.to("#mikefyke-text", 1, { zIndex: 2, scaleX: 1.5, scaleY: 1.5, opacity: 1, delay: 8 } );
     TweenMax.to('#clockFace', 1, { scaleX:.03, scaleY:.03, y:'16vh', x:'-24.5vw', delay: 8.5 } );
 
     TweenMax.to('#clockFace', 1, { x:'-575px', y:'15px', delay: 9.5 } );
@@ -63,7 +63,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#blueKickDiv", 0.5, { scaleX:0, scaleY:0, delay: 12.5 } );
     TweenMax.to("#clockFace", 0.5, { x:'-465px', y:'85px', scaleY: 0.75, scaleX: 0.75, delay: 12.5 } );
     
-    TweenMax.to("#mikyung-text", 0.5, { opacity: 1, y:'-450px', delay: 12.75} );
+    TweenMax.to("#mikyung-text", 0.5, { opacity: 1, y:'-450px', scaleX: 1.5, scaleY: 1.5, delay: 12.75} );
     TweenMax.to("#heart", 0.5, { opacity: 1, delay: 12.75 } );
     TweenMax.to("#heart", 0.5, { scaleX: 1.5, scaleY: 1.5, delay: 13.25 } );
     TweenMax.to("#heart", 0.5, { scaleX: 1, scaleY: 1, delay: 13.75 } );
@@ -86,7 +86,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#signal-pulse", 0.5, { opacity:0, scaleX: 1, scaleY: 1, delay: 19.75 } );
 
     TweenMax.to("#clockFace", 1, { x:'-150px', y:'-175px', scaleX: 0.05, scaleY: 0.05, delay: 16.5 });
-    TweenMax.to("#parnell-text", 1, { opacity: 1, y: '-750px', delay: 17.5} );
+    TweenMax.to("#parnell-text", 1, { opacity: 1, y: '-750px', scaleX: 1.5, scaleY: 1.5, delay: 17.5} );
 
     TweenMax.to("#parnellDiv", 1, { opacity: 1, x:'-600px', y:'-450px', delay: 17.5} ) ;
     
@@ -105,7 +105,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#taylor-text", 1, { x:'1000px', delay: 22});
 
     TweenMax.to("#clockFace", 1, { x:'-350px', y:'275px', scaleX: 0.15, scaleY: 0.15, delay: 23 });
-    TweenMax.to("#taylor-text", 1, {x:'1400px', scaleX: 1.5, scaleY: 1.5, delay: 23});
+    TweenMax.to("#taylor-text", 1, {x:'1400px', scaleX: 2, scaleY: 2, delay: 23});
 
     TweenMax.to(".orangeDivs", 0.5, { x:'100vw', delay: 24 });
     TweenMax.to("#taylor-text", 0.5, {x:'200vw', delay: 24});
@@ -123,11 +123,14 @@ document.getElementById('cta').addEventListener('click', function () {
 
     TweenMax.to("#glassDiv", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
     TweenMax.to("#clockFace", 1, {x:'-800px', scaleX: 0.05, scaleY: 0.05, delay: 26.5});
-    TweenMax.to("#walter-text", 1, { y:'-800px', delay: 26.5})
+    TweenMax.to("#walter-text", 1, { y:'-775px', scaleX: 1.5, scaleY: 1.5, delay: 26.5})
+    TweenMax.to("#and-text", 1, { y:'250px', scaleX: 1.5, scaleY: 1.5, delay:26.5})
 
     TweenMax.to("#bulletStreak", 0.25, {opacity: 0, delay: 28})
     TweenMax.to("#clockFace", .75, { x:'-850px', delay: 27.5})
     TweenMax.to("#glassDiv", 1, { y:'-150vh', delay: 28.25});
+
+    TweenMax.to("#and-text", 1, { y:'-250px', delay:28.25})
     TweenMax.to("#walter-text", 1, { y:'-150vh', delay: 28.25});
 
     TweenMax.to("#clockFace", 1, { x:'-775px', delay: 28.5});
