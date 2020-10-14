@@ -54,7 +54,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#leaf', 1, { y: '-100vh', delay: 6.5 } );
     TweenMax.to('#clockFace', 1, { zIndex: 3, scaleX: 1.5, scaleY: 1.5, delay: 7.5 } );
 
-    TweenMax.to("#scanner00", 0.01, { opacity: 1, delay: 7.5 } );
+    TweenMax.to("#scanner00", 0.05, { opacity: 1, delay: 7.75 } );
     TweenMax.to("#scanner01", 0.04, { opacity: 1, delay: 10.14 } );
         TweenMax.to("#scanner00", 0.04, { opacity: 0, delay: 10.14 } );
     TweenMax.to("#scanner02", 0.04, { opacity: 1, delay: 10.18 } );
