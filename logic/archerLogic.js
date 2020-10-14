@@ -137,6 +137,9 @@ document.getElementById('cta').addEventListener('click', function () {
 
     TweenMax.to(".finalRedDivs", 1, { y:'-1000px', delay: 29})
 
+    TweenMax.to("#clockFace", 1, { opacity:0, delay: 29.5});
+    TweenMax.to("#jason-fish", 0.5, { scaleY: 2.75, scaleX: 2.75, delay: 29.5});
+
     TweenMax.to("#j-text", 0.5, { y:'1200px', delay: 30});
     TweenMax.to("#a-text", 0.5, { y:'1200px', delay: 30.25});
     TweenMax.to("#s-text", 0.5, { y:'1200px', delay: 30.5});
@@ -144,7 +147,6 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#n-text", 0.5, { y:'1200px', delay: 31});
 
     TweenMax.to("#happy-text", 0.5, { scaleY: 1, delay: 32});
-    TweenMax.to("#jason-fish", 0.5, { scaleY: 2.5, scaleX: 3, delay: 29.5});
 
     TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#e9ed6d', delay: 32})
     TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#92ed61', delay: 35})
