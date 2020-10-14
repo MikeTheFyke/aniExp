@@ -136,6 +136,11 @@ body {
   opacity: 0;
 }
 
+#rightFoot {
+  float: right;
+  height: 100%;
+}
+
 #centerDiv {
   position: fixed;
   top: 20px;
@@ -225,7 +230,7 @@ body {
   opacity: 0;
 }
 
-#jet {
+#leaf {
   position: absolute;
   left: 41vw;
   top: 30vh;

@@ -7,7 +7,16 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#dot', 1, { y: '42vh', x:'-1vw', width: '100px', height: '100px', borderRadius: '50px', delay: 2} );
     TweenMax.to('#hourhand', 2, { opacity:1, rotation:1440, transformOrigin:"center bottom", delay: 2 } );
     TweenMax.to('#rightDiv', 0.25, { opacity:1, delay: 2 } );
+
     TweenMax.to('#leftDiv', 0.25, { opacity:1, delay: 2 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'700px', delay: 2.25 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'0px', delay: 2.75 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'700px', delay: 3.25 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'0px', delay: 3.75 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'700px', delay: 4.25 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'0px', delay: 4.75 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'700px', delay: 5.25 } );
+
     TweenMax.to('#centerDiv', 0.25, { opacity:1, delay: 2 } );
     TweenMax.to('#clockFace', 0.25, { opacity:1, delay: 2 } );
     TweenMax.to('.clockNum', 0.25, { opacity:1, delay: 2 } );
@@ -29,9 +38,9 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#leftDiv', 2, { y:'-100vh', x:'-50vw', delay: 5 } );
     TweenMax.to('#hourhand', 0.5, { opacity:0, delay: 5.5 } );
     TweenMax.to('#minutehand', 0.5, { opacity:0, delay: 5.5 } );
-    TweenMax.to('#jet', 0.5, { opacity: 1, scaleX: 1, delay: 5.5 } );
+    TweenMax.to('#leaf', 0.5, { opacity: 1, scaleX: 1, delay: 5.5 } );
     TweenMax.to('#dot', 0.25, { opacity:0, delay: 5.5 } );
-    TweenMax.to('#jet', 1, { y: '-100vh', delay: 6.5 } );
+    TweenMax.to('#leaf', 1, { y: '-100vh', delay: 6.5 } );
     TweenMax.to('#clockFace', 1, { zIndex: 3, scaleX: 1.5, scaleY: 1.5, delay: 7.5 } );
     TweenMax.to("#blueLeft1", 1, { opacity: 1, delay: 7.5 } );
     TweenMax.to("#blueLeft2", 1, { opacity: 1, delay: 7.5 } );
