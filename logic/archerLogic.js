@@ -4,33 +4,33 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#cta', 0.25, { opacity:0, scaleY:0, scaleX:0 } );
 
     TweenMax.to('#dot', 0.25, { opacity: 1, scaleY:40, scaleX:40, delay: 0.50 } );
-    TweenMax.to('#dot', 0.50, { scaleX: 1, scaleY: 1, x:'40px;', delay: 1} );
-    TweenMax.to('#hourhand', 2, { opacity:1, rotation:1440, transformOrigin:"center bottom", delay: 2 } );
-    
-    TweenMax.to('#rightDiv', 0.25, { opacity:1, delay: 2 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 2.35 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 2.85 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 3.35 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 3.85 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 4.35 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 4.85 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 5.35 } );
+    TweenMax.to('#dot', 0.50, { scaleX: 1, scaleY: 1, y:'40px', x:'40px;', delay: 1} );
+    TweenMax.to('#hourhand', 2, { opacity:1, rotation:1440, transformOrigin:"center bottom", delay: 1 } );
+    TweenMax.to('#centerDiv', 0.25, { opacity:1, delay: 1 } );
+    TweenMax.to('#clockFace', 0.25, { opacity:1, delay: 1 } );
+    TweenMax.to('.clockNum', 0.25, { opacity:1, delay: 1 } );
+    TweenMax.to('body', 0.25, { backgroundColor: 'black', delay: 1 } );
+    TweenMax.to('#minutehand', 2, { opacity:1, rotation:2520, transformOrigin:"center bottom", delay: 1.15 } );
+
+    TweenMax.to('#rightDiv', 0.25, { opacity:1, delay: 1 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 1 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 1.5 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 2 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 2.5 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 3 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 3.5 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 4 } );
 
 
-    TweenMax.to('#leftDiv', 0.25, { opacity:1, delay: 2 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 2.25 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 2.75 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 3.25 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 3.75 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 4.25 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 4.75 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 5.25 } );
+    TweenMax.to('#leftDiv', 0.25, { opacity:1, delay: 1 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 1 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 1.5 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 2 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 2.5 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 3 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 3.5 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 4 } );
 
-    TweenMax.to('#centerDiv', 0.25, { opacity:1, delay: 2 } );
-    TweenMax.to('#clockFace', 0.25, { opacity:1, delay: 2 } );
-    TweenMax.to('.clockNum', 0.25, { opacity:1, delay: 2 } );
-    TweenMax.to('body', 0.25, { backgroundColor: 'black', delay: 1.75 } );
-    TweenMax.to('#minutehand', 2, { opacity:1, rotation:1440, transformOrigin:"center bottom", delay: 2.25 } );
     TweenMax.to('#number3', 0.50, { y:'100vh', delay: 4 } );
     TweenMax.to('#number4', 0.50, { y:'100vh', delay: 4 } );
     TweenMax.to('#number5', 0.50, { y:'100vh', delay: 4 } );
