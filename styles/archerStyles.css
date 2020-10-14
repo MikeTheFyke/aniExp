@@ -172,6 +172,11 @@ body {
   opacity: 0;
 }
 
+#leftFoot {
+  float: left;
+  height: 100%;
+}
+
 .blueDiv {
   background-color: #4887cf;
 }

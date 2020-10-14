@@ -6,16 +6,25 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#dot', 0.25, { borderRadius: '0px', delay: 0.75 } );
     TweenMax.to('#dot', 1, { y: '42vh', x:'-1vw', width: '100px', height: '100px', borderRadius: '50px', delay: 2} );
     TweenMax.to('#hourhand', 2, { opacity:1, rotation:1440, transformOrigin:"center bottom", delay: 2 } );
+    
     TweenMax.to('#rightDiv', 0.25, { opacity:1, delay: 2 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 2.35 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 2.85 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 3.35 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 3.85 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 4.35 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 4.85 } );
+    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 5.35 } );
+
 
     TweenMax.to('#leftDiv', 0.25, { opacity:1, delay: 2 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'700px', delay: 2.25 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'0px', delay: 2.75 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'700px', delay: 3.25 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'0px', delay: 3.75 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'700px', delay: 4.25 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'0px', delay: 4.75 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'700px', delay: 5.25 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 2.25 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 2.75 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 3.25 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 3.75 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 4.25 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 4.75 } );
+    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 5.25 } );
 
     TweenMax.to('#centerDiv', 0.25, { opacity:1, delay: 2 } );
     TweenMax.to('#clockFace', 0.25, { opacity:1, delay: 2 } );
