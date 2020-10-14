@@ -55,17 +55,28 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#clockFace', 1, { zIndex: 3, scaleX: 1.5, scaleY: 1.5, delay: 7.5 } );
 
     TweenMax.to("#scanner00", 0.01, { opacity: 1, delay: 7.5 } );
-    TweenMax.to("#scanner01", 0.04, { opacity: 1, delay: 10.45 } );
-    TweenMax.to("#scanner02", 0.04, { opacity: 1, delay: 10.49 } );
-    TweenMax.to("#scanner03", 0.04, { opacity: 1, delay: 10.53 } );
-    TweenMax.to("#scanner04", 0.04, { opacity: 1, delay: 10.57 } );
-    TweenMax.to("#scanner05", 0.04, { opacity: 1, delay: 10.61 } );
-    TweenMax.to("#scanner06", 0.04, { opacity: 1, delay: 10.65 } );
-    TweenMax.to("#scanner07", 0.04, { opacity: 1, delay: 10.69 } );
-    TweenMax.to("#scanner08", 0.04, { opacity: 1, delay: 10.73 } );
-    TweenMax.to("#scanner09", 0.04, { opacity: 1, delay: 10.77 } );
-    TweenMax.to("#scanner10", 0.04, { opacity: 1, delay: 10.81 } );
+    TweenMax.to("#scanner01", 0.04, { opacity: 1, delay: 10.14 } );
+        TweenMax.to("#scanner00", 0.04, { opacity: 0, delay: 10.14 } );
+    TweenMax.to("#scanner02", 0.04, { opacity: 1, delay: 10.18 } );
+        TweenMax.to("#scanner01", 0.04, { opacity: 0, delay: 10.18 } );
+    TweenMax.to("#scanner03", 0.04, { opacity: 1, delay: 10.22 } );
+        TweenMax.to("#scanner02", 0.04, { opacity: 0, delay: 10.22 } );
+    TweenMax.to("#scanner04", 0.04, { opacity: 1, delay: 10.26 } );
+        TweenMax.to("#scanner03", 0.04, { opacity: 0, delay: 10.26 } );
+    TweenMax.to("#scanner05", 0.04, { opacity: 1, delay: 10.30 } );
+        TweenMax.to("#scanner04", 0.04, { opacity: 0, delay: 10.30 } );
+    TweenMax.to("#scanner06", 0.04, { opacity: 1, delay: 10.34 } );
+        TweenMax.to("#scanner05", 0.04, { opacity: 0, delay: 10.34 } );
+    TweenMax.to("#scanner07", 0.04, { opacity: 1, delay: 10.38 } );
+        TweenMax.to("#scanner06", 0.04, { opacity: 0, delay: 10.38 } );
+    TweenMax.to("#scanner08", 0.04, { opacity: 1, delay: 10.42 } );
+        TweenMax.to("#scanner07", 0.04, { opacity: 0, delay: 10.42 } );
+    TweenMax.to("#scanner09", 0.04, { opacity: 1, delay: 10.46 } );
+        TweenMax.to("#scanner08", 0.04, { opacity: 0, delay: 10.46 } );
+    TweenMax.to("#scanner10", 0.04, { opacity: 1, delay: 10.50 } );
+        TweenMax.to("#scanner09", 0.04, { opacity: 0, delay: 10.50 } );
     TweenMax.to("#scanner11", 0.04, { opacity: 1, delay: 10.85 } );
+        TweenMax.to("#scanner10", 0.04, { opacity: 0, delay: 10.85 } );
 
     TweenMax.to("#mikefyke-text", 1, { zIndex: 2, scaleX: 1.5, scaleY: 1.5, opacity: 1, delay: 8 } );
     TweenMax.to('#clockFace', 1, { scaleX:.03, scaleY:.03, y:'16vh', x:'-24.5vw', delay: 8.5 } );
@@ -73,6 +84,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#clockFace', 1, { x:'-575px', y:'15px', delay: 9.5 } );
     TweenMax.to("#mikefyke-text", 1, { x:'-50px', y:'-180px', delay: 9.5 } );
 
+    TweenMax.to("#scanner11", 1, { x:'100vw', delay: 10.5 } );
     TweenMax.to("#mikefyke-text", 1, { x:'100vw', delay: 10.5 } );
 
     TweenMax.to(".bulletDivs", 2, { x: '450vw', delay: 11 } );
