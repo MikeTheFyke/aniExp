@@ -53,12 +53,18 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#dot', 0.25, { opacity:0, delay: 5.5 } );
     TweenMax.to('#leaf', 1, { y: '-100vh', delay: 6.5 } );
     TweenMax.to('#clockFace', 1, { zIndex: 3, scaleX: 1.5, scaleY: 1.5, delay: 7.5 } );
-    TweenMax.to("#blueLeft1", 1, { opacity: 1, delay: 7.5 } );
-    TweenMax.to("#blueLeft2", 1, { opacity: 1, delay: 7.5 } );
-    TweenMax.to("#blueRight1", 1, { opacity: 1, delay: 7.5 } );
-    TweenMax.to("#blueRight2", 1, { opacity: 1, delay: 7.5 } );
-    TweenMax.to("#blueRight3", 1, { opacity: 1, delay: 7.5 } );
-    TweenMax.to("#blueRight4", 1, { opacity: 1, delay: 7.5 } );
+    TweenMax.to("#blueLeft1", 0.1, { opacity: 1, delay: 7.5 } );
+    TweenMax.to("#scanner-image", 0.1, { content:'url("../images/scanner/scanner01.png")', delay: 7.6 } );
+    TweenMax.to("#scanner-image", 0.4, { content:'url("../images/scanner/scanner02.png")', delay: 8 } );
+    TweenMax.to("#scanner-image", 0.25, { content:'url("../images/scanner/scanner03.png")', delay: 8.25 } );
+    TweenMax.to("#scanner-image", 0.25, { content:'url("../images/scanner/scanner04.png")', delay: 8.5 } );
+    TweenMax.to("#scanner-image", 0.25, { content:'url("../images/scanner/scanner05.png")', delay: 8.75 } );
+    TweenMax.to("#scanner-image", 0.25, { content:'url("../images/scanner/scanner06.png")', delay: 9 } );
+    TweenMax.to("#scanner-image", 0.25, { content:'url("../images/scanner/scanner07.png")', delay: 9.25 } );
+    TweenMax.to("#scanner-image", 0.25, { content:'url("../images/scanner/scanner08.png")', delay: 9.5 } );
+    TweenMax.to("#scanner-image", 0.25, { content:'url("../images/scanner/scanner09.png")', delay: 9.75 } );
+    TweenMax.to("#scanner-image", 0.25, { content:'url("../images/scanner/scanner10.png")', delay: 10 } );
+    TweenMax.to("#scanner-image", 0.25, { content:'url("../images/scanner/scanner11.png")', delay: 10.25 } );
 
     TweenMax.to("#mikefyke-text", 1, { zIndex: 2, scaleX: 1.5, scaleY: 1.5, opacity: 1, delay: 8 } );
     TweenMax.to('#clockFace', 1, { scaleX:.03, scaleY:.03, y:'16vh', x:'-24.5vw', delay: 8.5 } );
@@ -67,11 +73,6 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#mikefyke-text", 1, { x:'-50px', y:'-180px', delay: 9.5 } );
 
     TweenMax.to("#blueLeft1",  1, { x:'100vw', delay: 10.5 } );
-    TweenMax.to("#blueLeft2",  1, { x:'100vw', delay: 10.5 } );
-    TweenMax.to("#blueRight1", 1, { x:'100vw', delay: 10.5 } );
-    TweenMax.to("#blueRight2", 1, { x:'100vw', delay: 10.5 } );
-    TweenMax.to("#blueRight3", 1, { x:'100vw', delay: 10.5 } );
-    TweenMax.to("#blueRight4", 1, { x:'100vw', delay: 10.5 } );
     TweenMax.to("#mikefyke-text", 1, { x:'100vw', delay: 10.5 } );
 
     TweenMax.to(".bulletDivs", 2, { x: '450vw', delay: 11 } );
