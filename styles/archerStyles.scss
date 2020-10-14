@@ -26,12 +26,14 @@ body{
 }
 
 #dot{
-    margin: auto auto;
+    position: absolute;
+    top: 479px;
+    left: 956px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
     background-color: black;
-    margin-top: 40%;
-    transform: scaleY(0);
-    transform: scaleX(0);
-    border-radius: 500px;
+    opacity: 0;
 }
 
 #hourhand{
