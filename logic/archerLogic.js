@@ -160,7 +160,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#walter-text", 1, { y:'-775px', scaleX: 1.5, scaleY: 1.5, delay: 26.5})
     TweenMax.to("#and-text", 1, { y:'250px', scaleX: 1.5, scaleY: 1.5, delay:26.5})
 
-    TweenMax.to("#bulletStreak", 0.25, {opacity: 0, delay: 28})
+    TweenMax.to("#bulletStreak", 0.25, {opacity: 0, delay: 26.5})
     TweenMax.to("#clockFace", .75, { x:'-850px', delay: 27.5})
     TweenMax.to("#glassDiv", 1, { y:'-150vh', delay: 28.25});
 
