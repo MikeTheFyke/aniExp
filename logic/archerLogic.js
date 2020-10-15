@@ -156,34 +156,152 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#bulletStreak", 0.75, { x:'300px', scaleY: 2, delay: 26.5})
 
     TweenMax.to("#glassDiv", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image01", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image02", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image03", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image04", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image05", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image06", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image07", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image08", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image09", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image10", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image11", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image12", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image13", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image14", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image15", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image16", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image17", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image18", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image19", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image20", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image21", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image22", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image23", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image24", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image25", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image26", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image27", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image28", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+        TweenMax.to("#bobby-image29", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
+
+        TweenMax.to("#bobby-image", 0.04, { opacity: 0, delay: 26.9 })
+        TweenMax.to("#bobby-image01", 0.04, { opacity: 1, delay: 26.9 })
+
+        TweenMax.to("#bobby-image01", 0.04, { opacity: 0, delay: 27.3 })
+        TweenMax.to("#bobby-image02", 0.04, { opacity: 1, delay: 27.3 })
+
+        TweenMax.to("#bobby-image02", 0.04, { opacity: 0, delay: 27.7 })
+        TweenMax.to("#bobby-image03", 0.04, { opacity: 1, delay: 27.7 })
+
+        TweenMax.to("#bobby-image03", 0.04, { opacity: 0, delay: 28.1 })
+        TweenMax.to("#bobby-image04", 0.04, { opacity: 1, delay: 28.1 })
+
+        TweenMax.to("#bobby-image04", 0.04, { opacity: 0, delay: 28.5 })
+        TweenMax.to("#bobby-image05", 0.04, { opacity: 1, delay: 28.5 })
+
+        TweenMax.to("#bobby-image05", 0.04, { opacity: 0, delay: 28.9 })
+        TweenMax.to("#bobby-image06", 0.04, { opacity: 1, delay: 28.9 })
+
+        TweenMax.to("#bobby-image06", 0.04, { opacity: 0, delay: 29.3 })
+        TweenMax.to("#bobby-image07", 0.04, { opacity: 1, delay: 29.3 })
+
+        TweenMax.to("#bobby-image07", 0.04, { opacity: 0, delay: 29.7 })
+        TweenMax.to("#bobby-image08", 0.04, { opacity: 1, delay: 29.7 })
+
+        TweenMax.to("#bobby-image08", 0.04, { opacity: 0, delay: 30.1 })
+        TweenMax.to("#bobby-image09", 0.04, { opacity: 1, delay: 30.1 })
+
+        TweenMax.to("#bobby-image09", 0.04, { opacity: 0, delay: 30.5 })
+        TweenMax.to("#bobby-image10", 0.04, { opacity: 1, delay: 30.5 })
+
+        TweenMax.to("#bobby-image10", 0.04, { opacity: 0, delay: 30.9 })
+        TweenMax.to("#bobby-image11", 0.04, { opacity: 1, delay: 30.9 })
+
+        TweenMax.to("#bobby-image11", 0.04, { opacity: 0, delay: 31.3 })
+        TweenMax.to("#bobby-image12", 0.04, { opacity: 1, delay: 31.3 })
+
+        TweenMax.to("#bobby-image12", 0.04, { opacity: 0, delay: 31.7 })
+        TweenMax.to("#bobby-image13", 0.04, { opacity: 1, delay: 31.7 })
+
+        TweenMax.to("#bobby-image13", 0.04, { opacity: 0, delay: 32.1 })
+        TweenMax.to("#bobby-image14", 0.04, { opacity: 1, delay: 32.1 })
+
+        TweenMax.to("#bobby-image14", 0.04, { opacity: 0, delay: 32.5 })
+        TweenMax.to("#bobby-image15", 0.04, { opacity: 1, delay: 32.5 })
+
+        TweenMax.to("#bobby-image15", 0.04, { opacity: 0, delay: 32.9 })
+        TweenMax.to("#bobby-image16", 0.04, { opacity: 1, delay: 32.9 })
+
+        TweenMax.to("#bobby-image16", 0.04, { opacity: 0, delay: 33.3 })
+        TweenMax.to("#bobby-image17", 0.04, { opacity: 1, delay: 33.3 })
+
+        TweenMax.to("#bobby-image17", 0.04, { opacity: 0, delay: 33.7 })
+        TweenMax.to("#bobby-image18", 0.04, { opacity: 1, delay: 33.7 })
+
+        TweenMax.to("#bobby-image18", 0.04, { opacity: 0, delay: 34.1 })
+        TweenMax.to("#bobby-image19", 0.04, { opacity: 1, delay: 34.1 })
+
+        TweenMax.to("#bobby-image19", 0.04, { opacity: 0, delay: 34.5 })
+        TweenMax.to("#bobby-image20", 0.04, { opacity: 1, delay: 34.5 })
+
+        TweenMax.to("#bobby-image20", 0.04, { opacity: 0, delay: 34.9 })
+        TweenMax.to("#bobby-image21", 0.04, { opacity: 1, delay: 34.9 })
+
+        TweenMax.to("#bobby-image21", 0.04, { opacity: 0, delay: 35.3 })
+        TweenMax.to("#bobby-image22", 0.04, { opacity: 1, delay: 35.3 })
+
+        TweenMax.to("#bobby-image22", 0.04, { opacity: 0, delay: 35.7 })
+        TweenMax.to("#bobby-image23", 0.04, { opacity: 1, delay: 35.7 })
+
+        TweenMax.to("#bobby-image23", 0.04, { opacity: 0, delay: 36.1 })
+        TweenMax.to("#bobby-image24", 0.04, { opacity: 1, delay: 36.1 })
+
+        TweenMax.to("#bobby-image24", 0.04, { opacity: 0, delay: 36.5 })
+        TweenMax.to("#bobby-image25", 0.04, { opacity: 1, delay: 36.5 })
+
+        TweenMax.to("#bobby-image25", 0.04, { opacity: 0, delay: 36.9 })
+        TweenMax.to("#bobby-image26", 0.04, { opacity: 1, delay: 36.9 })
+
+        TweenMax.to("#bobby-image26", 0.04, { opacity: 0, delay: 37.3 })
+        TweenMax.to("#bobby-image27", 0.04, { opacity: 1, delay: 37.3 })
+
+        TweenMax.to("#bobby-image27", 0.04, { opacity: 0, delay: 37.7 })
+        TweenMax.to("#bobby-image28", 0.04, { opacity: 1, delay: 37.7 })
+
+        TweenMax.to("#bobby-image28", 0.04, { opacity: 0, delay: 38.1 })
+        TweenMax.to("#bobby-image29", 0.04, { opacity: 1, delay: 38.1 })
+
     TweenMax.to("#clockFace", 1, {x:'-800px', scaleX: 0.05, scaleY: 0.05, delay: 26.5});
     TweenMax.to("#walter-text", 1, { y:'-775px', scaleX: 1.5, scaleY: 1.5, delay: 26.5})
     TweenMax.to("#and-text", 1, { y:'250px', scaleX: 1.5, scaleY: 1.5, delay:26.5})
 
     TweenMax.to("#bulletStreak", 0.25, {opacity: 0, delay: 26.5})
-    TweenMax.to("#clockFace", .75, { x:'-850px', delay: 27.5})
-    TweenMax.to("#glassDiv", 1, { y:'-150vh', delay: 28.25});
+    TweenMax.to("#clockFace", 1, { x:'-850px', delay: 27.5})
+    TweenMax.to("#glassDiv", 1, { y:'-150vh', delay: 28.5});
 
-    TweenMax.to("#and-text", 1, { y:'-250px', delay:28.25})
-    TweenMax.to("#walter-text", 1, { y:'-150vh', delay: 28.25});
+    TweenMax.to("#and-text", 1, { y:'-250px', delay:28.5})
+    TweenMax.to("#walter-text", 1, { y:'-150vh', delay: 28.5});
 
-    TweenMax.to("#clockFace", 1, { x:'-775px', delay: 28.5});
+    TweenMax.to("#clockFace", 1, { x:'-775px', delay: 28.75});
 
-    TweenMax.to(".finalRedDivs", 1, { y:'-1000px', delay: 29})
+    TweenMax.to(".finalRedDivs", 1, { y:'-1000px', delay: 30})
 
-    TweenMax.to("#clockFace", 1, { opacity:0, delay: 29.5});
-    TweenMax.to("#jason-fish", 0.5, { scaleY: 2.75, scaleX: 2.75, delay: 29.5});
+    TweenMax.to("#clockFace", 1, { opacity:0, delay: 30.5});
+    TweenMax.to("#jason-fish", 0.5, { scaleY: 2.75, scaleX: 2.75, delay: 30.5});
 
-    TweenMax.to("#j-text", 0.5, { y:'1200px', delay: 30});
-    TweenMax.to("#a-text", 0.5, { y:'1200px', delay: 30.25});
-    TweenMax.to("#s-text", 0.5, { y:'1200px', delay: 30.5});
-    TweenMax.to("#o-text", 0.5, { y:'1200px', delay: 30.75});
-    TweenMax.to("#n-text", 0.5, { y:'1200px', delay: 31});
+    TweenMax.to("#j-text", 0.5, { y:'1200px', delay: 31});
+    TweenMax.to("#a-text", 0.5, { y:'1200px', delay: 31.25});
+    TweenMax.to("#s-text", 0.5, { y:'1200px', delay: 31.5});
+    TweenMax.to("#o-text", 0.5, { y:'1200px', delay: 31.75});
+    TweenMax.to("#n-text", 0.5, { y:'1200px', delay: 32});
 
-    TweenMax.to("#happy-text", 0.5, { scaleY: 1, delay: 32});
+    TweenMax.to("#happy-text", 0.5, { scaleY: 1, delay: 33});
 
-    TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#e9ed6d', delay: 32})
-    TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#92ed61', delay: 35})
-    TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#63ebeb', delay: 38})
-    TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#c06ded', delay: 41})
+    TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#e9ed6d', delay: 33})
+    TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#92ed61', delay: 36})
+    TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#63ebeb', delay: 39})
+    TweenMax.to(".finalRedDivs", 1, { backgroundColor:'#c06ded', delay: 42})
 })
