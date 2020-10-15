@@ -356,6 +356,8 @@ body {
   left: 22.5vw;
   height: 25px;
   width: 2000px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
   background-color: black;
   opacity: 0;
 }

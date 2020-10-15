@@ -77,6 +77,7 @@ document.getElementById('cta').addEventListener('click', function () {
         TweenMax.to("#scanner09", 0.04, { opacity: 0, delay: 10.50 } );
     TweenMax.to("#scanner11", 0.04, { opacity: 1, delay: 10.85 } );
         TweenMax.to("#scanner10", 0.04, { opacity: 0, delay: 10.85 } );
+        TweenMax.to("#scanner11", 0.04, { opacity: 0, delay: 10.89 } );
 
     TweenMax.to("#mikefyke-text", 1, { zIndex: 2, scaleX: 1.5, scaleY: 1.5, opacity: 1, delay: 8 } );
     TweenMax.to('#clockFace', 1, { scaleX:.03, scaleY:.03, y:'16vh', x:'-24.5vw', delay: 8.5 } );
