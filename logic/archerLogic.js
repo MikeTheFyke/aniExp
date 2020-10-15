@@ -215,7 +215,7 @@ document.getElementById('cta').addEventListener('click', function () {
         TweenMax.to("#bobby-image09", 0.01, { opacity: 1, delay: 27.09 })
 
         TweenMax.to("#bobby-image09", 0.01, { opacity: 0, delay: 27.1 })
-        TweenMax.to("#bobby-image10", 0.01, { opacity: 1, delay: 29.1 })
+        TweenMax.to("#bobby-image10", 0.01, { opacity: 1, delay: 27.1 })
 
         TweenMax.to("#bobby-image10", 0.01, { opacity: 0, delay: 27.11 })
         TweenMax.to("#bobby-image11", 0.01, { opacity: 1, delay: 27.11 })
