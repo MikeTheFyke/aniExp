@@ -187,92 +187,92 @@ document.getElementById('cta').addEventListener('click', function () {
         TweenMax.to("#bobby-image28", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
         TweenMax.to("#bobby-image29", 1, { x:'2200px', y:'-400px', scaleX:0.5, scaleY: 0.5, delay: 26.5})
 
-        TweenMax.to("#bobby-image", 0.01, { opacity: 0, delay: 27.01 })
-        TweenMax.to("#bobby-image01", 0.01, { opacity: 1, delay: 27.01 })
+        TweenMax.to("#bobby-image", 0.04, { opacity: 0, delay: 27.5 })
+        TweenMax.to("#bobby-image01", 0.04, { opacity: 1, delay: 27.5 })
 
-        TweenMax.to("#bobby-image01", 0.01, { opacity: 0, delay: 27.02 })
-        TweenMax.to("#bobby-image02", 0.01, { opacity: 1, delay: 27.02 })
+        TweenMax.to("#bobby-image01", 0.04, { opacity: 0, delay: 27.54 })
+        TweenMax.to("#bobby-image02", 0.04, { opacity: 1, delay: 27.54 })
 
-        TweenMax.to("#bobby-image02", 0.01, { opacity: 0, delay: 27.03 })
-        TweenMax.to("#bobby-image03", 0.01, { opacity: 1, delay: 27.03 })
+        TweenMax.to("#bobby-image02", 0.04, { opacity: 0, delay: 27.58 })
+        TweenMax.to("#bobby-image03", 0.04, { opacity: 1, delay: 27.58 })
 
-        TweenMax.to("#bobby-image03", 0.01, { opacity: 0, delay: 27.04 })
-        TweenMax.to("#bobby-image04", 0.01, { opacity: 1, delay: 27.04 })
+        TweenMax.to("#bobby-image03", 0.04, { opacity: 0, delay: 27.62 })
+        TweenMax.to("#bobby-image04", 0.04, { opacity: 1, delay: 27.62 })
 
-        TweenMax.to("#bobby-image04", 0.01, { opacity: 0, delay: 27.05 })
-        TweenMax.to("#bobby-image05", 0.01, { opacity: 1, delay: 27.05 })
+        TweenMax.to("#bobby-image04", 0.04, { opacity: 0, delay: 27.66 })
+        TweenMax.to("#bobby-image05", 0.04, { opacity: 1, delay: 27.66 })
 
-        TweenMax.to("#bobby-image05", 0.01, { opacity: 0, delay: 27.06 })
-        TweenMax.to("#bobby-image06", 0.01, { opacity: 1, delay: 27.06 })
+        TweenMax.to("#bobby-image05", 0.04, { opacity: 0, delay: 27.72 })
+        TweenMax.to("#bobby-image06", 0.04, { opacity: 1, delay: 27.72 })
 
-        TweenMax.to("#bobby-image06", 0.01, { opacity: 0, delay: 27.07 })
-        TweenMax.to("#bobby-image07", 0.01, { opacity: 1, delay: 27.07 })
+        TweenMax.to("#bobby-image06", 0.04, { opacity: 0, delay: 27.76 })
+        TweenMax.to("#bobby-image07", 0.04, { opacity: 1, delay: 27.76 })
 
-        TweenMax.to("#bobby-image07", 0.01, { opacity: 0, delay: 27.08 })
-        TweenMax.to("#bobby-image08", 0.01, { opacity: 1, delay: 27.08 })
+        TweenMax.to("#bobby-image07", 0.04, { opacity: 0, delay: 27.80 })
+        TweenMax.to("#bobby-image08", 0.04, { opacity: 1, delay: 27.80 })
 
-        TweenMax.to("#bobby-image08", 0.01, { opacity: 0, delay: 27.09 })
-        TweenMax.to("#bobby-image09", 0.01, { opacity: 1, delay: 27.09 })
+        TweenMax.to("#bobby-image08", 0.04, { opacity: 0, delay: 27.84 })
+        TweenMax.to("#bobby-image09", 0.04, { opacity: 1, delay: 27.84 })
 
-        TweenMax.to("#bobby-image09", 0.01, { opacity: 0, delay: 27.1 })
-        TweenMax.to("#bobby-image10", 0.01, { opacity: 1, delay: 27.1 })
+        TweenMax.to("#bobby-image09", 0.04, { opacity: 0, delay: 27.88 })
+        TweenMax.to("#bobby-image10", 0.04, { opacity: 1, delay: 27.88 })
 
-        TweenMax.to("#bobby-image10", 0.01, { opacity: 0, delay: 27.11 })
-        TweenMax.to("#bobby-image11", 0.01, { opacity: 1, delay: 27.11 })
+        TweenMax.to("#bobby-image10", 0.04, { opacity: 0, delay: 27.92 })
+        TweenMax.to("#bobby-image11", 0.04, { opacity: 1, delay: 27.92 })
 
-        TweenMax.to("#bobby-image11", 0.01, { opacity: 0, delay: 27.12 })
-        TweenMax.to("#bobby-image12", 0.01, { opacity: 1, delay: 27.12 })
+        TweenMax.to("#bobby-image11", 0.04, { opacity: 0, delay: 27.96 })
+        TweenMax.to("#bobby-image12", 0.04, { opacity: 1, delay: 27.96 })
 
-        TweenMax.to("#bobby-image12", 0.01, { opacity: 0, delay: 27.13 })
-        TweenMax.to("#bobby-image13", 0.01, { opacity: 1, delay: 27.13 })
+        TweenMax.to("#bobby-image12", 0.04, { opacity: 0, delay: 28 })
+        TweenMax.to("#bobby-image13", 0.04, { opacity: 1, delay: 28 })
 
-        TweenMax.to("#bobby-image13", 0.01, { opacity: 0, delay: 27.14 })
-        TweenMax.to("#bobby-image14", 0.01, { opacity: 1, delay: 27.14 })
+        TweenMax.to("#bobby-image13", 0.04, { opacity: 0, delay: 28.04 })
+        TweenMax.to("#bobby-image14", 0.04, { opacity: 1, delay: 28.04 })
 
-        TweenMax.to("#bobby-image14", 0.01, { opacity: 0, delay: 27.15 })
-        TweenMax.to("#bobby-image15", 0.01, { opacity: 1, delay: 27.15 })
+        TweenMax.to("#bobby-image14", 0.04, { opacity: 0, delay: 28.08 })
+        TweenMax.to("#bobby-image15", 0.04, { opacity: 1, delay: 28.08 })
 
-        TweenMax.to("#bobby-image15", 0.01, { opacity: 0, delay: 27.16 })
-        TweenMax.to("#bobby-image16", 0.01, { opacity: 1, delay: 27.16 })
+        TweenMax.to("#bobby-image15", 0.04, { opacity: 0, delay: 28.12 })
+        TweenMax.to("#bobby-image16", 0.04, { opacity: 1, delay: 28.12 })
 
-        TweenMax.to("#bobby-image16", 0.01, { opacity: 0, delay: 27.17 })
-        TweenMax.to("#bobby-image17", 0.01, { opacity: 1, delay: 27.17 })
+        TweenMax.to("#bobby-image16", 0.04, { opacity: 0, delay: 28.16 })
+        TweenMax.to("#bobby-image17", 0.04, { opacity: 1, delay: 28.16 })
 
-        TweenMax.to("#bobby-image17", 0.01, { opacity: 0, delay: 27.18 })
-        TweenMax.to("#bobby-image18", 0.01, { opacity: 1, delay: 27.18 })
+        TweenMax.to("#bobby-image17", 0.04, { opacity: 0, delay: 28.20 })
+        TweenMax.to("#bobby-image18", 0.04, { opacity: 1, delay: 28.20 })
 
-        TweenMax.to("#bobby-image18", 0.01, { opacity: 0, delay: 27.19 })
-        TweenMax.to("#bobby-image19", 0.01, { opacity: 1, delay: 27.19 })
+        TweenMax.to("#bobby-image18", 0.04, { opacity: 0, delay: 28.24 })
+        TweenMax.to("#bobby-image19", 0.04, { opacity: 1, delay: 28.24 })
 
-        TweenMax.to("#bobby-image19", 0.01, { opacity: 0, delay: 27.2 })
-        TweenMax.to("#bobby-image20", 0.01, { opacity: 1, delay: 27.2 })
+        TweenMax.to("#bobby-image19", 0.04, { opacity: 0, delay: 28.28 })
+        TweenMax.to("#bobby-image20", 0.04, { opacity: 1, delay: 28.28 })
 
-        TweenMax.to("#bobby-image20", 0.01, { opacity: 0, delay: 27.21 })
-        TweenMax.to("#bobby-image21", 0.01, { opacity: 1, delay: 27.21 })
+        TweenMax.to("#bobby-image20", 0.04, { opacity: 0, delay: 28.32 })
+        TweenMax.to("#bobby-image21", 0.04, { opacity: 1, delay: 28.32 })
 
-        TweenMax.to("#bobby-image21", 0.01, { opacity: 0, delay: 27.22 })
-        TweenMax.to("#bobby-image22", 0.01, { opacity: 1, delay: 27.22 })
+        TweenMax.to("#bobby-image21", 0.04, { opacity: 0, delay: 28.36 })
+        TweenMax.to("#bobby-image22", 0.04, { opacity: 1, delay: 28.36 })
 
-        TweenMax.to("#bobby-image22", 0.01, { opacity: 0, delay: 27.23 })
-        TweenMax.to("#bobby-image23", 0.01, { opacity: 1, delay: 27.23 })
+        TweenMax.to("#bobby-image22", 0.04, { opacity: 0, delay: 28.40 })
+        TweenMax.to("#bobby-image23", 0.04, { opacity: 1, delay: 28.40 })
 
-        TweenMax.to("#bobby-image23", 0.01, { opacity: 0, delay: 27.24 })
-        TweenMax.to("#bobby-image24", 0.01, { opacity: 1, delay: 27.24 })
+        TweenMax.to("#bobby-image23", 0.04, { opacity: 0, delay: 28.44 })
+        TweenMax.to("#bobby-image24", 0.04, { opacity: 1, delay: 28.44 })
 
-        TweenMax.to("#bobby-image24", 0.01, { opacity: 0, delay: 27.25 })
-        TweenMax.to("#bobby-image25", 0.01, { opacity: 1, delay: 27.25 })
+        TweenMax.to("#bobby-image24", 0.04, { opacity: 0, delay: 28.48 })
+        TweenMax.to("#bobby-image25", 0.04, { opacity: 1, delay: 28.48 })
 
-        TweenMax.to("#bobby-image25", 0.01, { opacity: 0, delay: 27.26 })
-        TweenMax.to("#bobby-image26", 0.01, { opacity: 1, delay: 27.26 })
+        TweenMax.to("#bobby-image25", 0.04, { opacity: 0, delay: 28.52 })
+        TweenMax.to("#bobby-image26", 0.04, { opacity: 1, delay: 28.52 })
 
-        TweenMax.to("#bobby-image26", 0.01, { opacity: 0, delay: 27.27 })
-        TweenMax.to("#bobby-image27", 0.01, { opacity: 1, delay: 27.27 })
+        TweenMax.to("#bobby-image26", 0.04, { opacity: 0, delay: 28.56 })
+        TweenMax.to("#bobby-image27", 0.04, { opacity: 1, delay: 28.56 })
 
-        TweenMax.to("#bobby-image27", 0.01, { opacity: 0, delay: 27.28 })
-        TweenMax.to("#bobby-image28", 0.01, { opacity: 1, delay: 27.28 })
+        TweenMax.to("#bobby-image27", 0.04, { opacity: 0, delay: 28.60 })
+        TweenMax.to("#bobby-image28", 0.04, { opacity: 1, delay: 28.60 })
 
-        TweenMax.to("#bobby-image28", 0.01, { opacity: 0, delay: 27.29 })
-        TweenMax.to("#bobby-image29", 0.01, { opacity: 1, delay: 27.29 })
+        TweenMax.to("#bobby-image28", 0.04, { opacity: 0, delay: 28.64 })
+        TweenMax.to("#bobby-image29", 0.04, { opacity: 1, delay: 28.64 })
 
     TweenMax.to("#clockFace", 1, {x:'-800px', scaleX: 0.05, scaleY: 0.05, delay: 26.5});
     TweenMax.to("#walter-text", 1, { y:'-775px', scaleX: 1.5, scaleY: 1.5, delay: 26.5})
