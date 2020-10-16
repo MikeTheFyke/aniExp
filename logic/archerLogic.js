@@ -13,23 +13,31 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#minutehand', 2, { opacity:1, rotation:2520, transformOrigin:"center bottom", delay: 1.15 } );
 
     TweenMax.to('#rightDiv', 0.25, { opacity:1, delay: 1 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 1 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 1.5 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 2 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 2.5 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 3 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 3.5 } );
-    TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 4 } );
+        TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 1 } );
+        TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 1.5 } );
+        TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 2 } );
+        TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 2.5 } );
+        TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 3 } );
+        TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 3.5 } );
+        TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 4 } );
+        TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 4.5 } );
+        TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 5 } );
+        TweenMax.to("#leftFoot", 0.5, { x:'0px', y:'0px', delay: 5.5 } );
+        TweenMax.to("#leftFoot", 0.5, { x:'-750px', y:'-90px', delay: 6 } );
 
 
     TweenMax.to('#leftDiv', 0.25, { opacity:1, delay: 1 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 1 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 1.5 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 2 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 2.5 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 3 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 3.5 } );
-    TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 4 } );
+        TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 1 } );
+        TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 1.5 } );
+        TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 2 } );
+        TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 2.5 } );
+        TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 3 } );
+        TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 3.5 } );
+        TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 4 } );
+        TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 4.5 } );
+        TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 5 } );
+        TweenMax.to("#rightFoot", 0.5, { x:'0px', y:'0px', delay: 5.5 } );
+        TweenMax.to("#rightFoot", 0.5, { x:'700px', y:'-90px', delay: 6 } );
 
     TweenMax.to('#number3', 0.50, { y:'100vh', delay: 4 } );
     TweenMax.to('#number4', 0.50, { y:'100vh', delay: 4 } );
@@ -55,30 +63,30 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to('#clockFace', 1, { zIndex: 3, scaleX: 1.5, scaleY: 1.5, delay: 7.5 } );
 
     TweenMax.to("#scanner00", 0.05, { opacity: 1, delay: 7.75 } );
-    TweenMax.to("#scanner00", 0.05, { content:'url("../images/Scanner.gif")', delay: 7.75})
-    // TweenMax.to("#scanner01", 0.04, { opacity: 1, delay: 10.14 } );
-    //     TweenMax.to("#scanner00", 0.04, { opacity: 0, delay: 10.14 } );
-    // TweenMax.to("#scanner02", 0.04, { opacity: 1, delay: 10.18 } );
-    //     TweenMax.to("#scanner01", 0.04, { opacity: 0, delay: 10.18 } );
-    // TweenMax.to("#scanner03", 0.04, { opacity: 1, delay: 10.22 } );
-    //     TweenMax.to("#scanner02", 0.04, { opacity: 0, delay: 10.22 } );
-    // TweenMax.to("#scanner04", 0.04, { opacity: 1, delay: 10.26 } );
-    //     TweenMax.to("#scanner03", 0.04, { opacity: 0, delay: 10.26 } );
-    // TweenMax.to("#scanner05", 0.04, { opacity: 1, delay: 10.30 } );
-    //     TweenMax.to("#scanner04", 0.04, { opacity: 0, delay: 10.30 } );
-    // TweenMax.to("#scanner06", 0.04, { opacity: 1, delay: 10.34 } );
-    //     TweenMax.to("#scanner05", 0.04, { opacity: 0, delay: 10.34 } );
-    // TweenMax.to("#scanner07", 0.04, { opacity: 1, delay: 10.38 } );
-    //     TweenMax.to("#scanner06", 0.04, { opacity: 0, delay: 10.38 } );
-    // TweenMax.to("#scanner08", 0.04, { opacity: 1, delay: 10.42 } );
-    //     TweenMax.to("#scanner07", 0.04, { opacity: 0, delay: 10.42 } );
-    // TweenMax.to("#scanner09", 0.04, { opacity: 1, delay: 10.46 } );
-    //     TweenMax.to("#scanner08", 0.04, { opacity: 0, delay: 10.46 } );
-    // TweenMax.to("#scanner10", 0.04, { opacity: 1, delay: 10.50 } );
-    //     TweenMax.to("#scanner09", 0.04, { opacity: 0, delay: 10.50 } );
-    // TweenMax.to("#scanner11", 0.04, { opacity: 1, delay: 10.85 } );
-    //     TweenMax.to("#scanner10", 0.04, { opacity: 0, delay: 10.85 } );
-    //     TweenMax.to("#scanner11", 0.04, { opacity: 0, delay: 10.89 } );
+    TweenMax.to("#scanner00", 0.05, { content:'url("../images/Scanner00.gif")', delay: 7.75})
+                        // TweenMax.to("#scanner01", 0.04, { opacity: 1, delay: 10.14 } );
+                        //     TweenMax.to("#scanner00", 0.04, { opacity: 0, delay: 10.14 } );
+                        // TweenMax.to("#scanner02", 0.04, { opacity: 1, delay: 10.18 } );
+                        //     TweenMax.to("#scanner01", 0.04, { opacity: 0, delay: 10.18 } );
+                        // TweenMax.to("#scanner03", 0.04, { opacity: 1, delay: 10.22 } );
+                        //     TweenMax.to("#scanner02", 0.04, { opacity: 0, delay: 10.22 } );
+                        // TweenMax.to("#scanner04", 0.04, { opacity: 1, delay: 10.26 } );
+                        //     TweenMax.to("#scanner03", 0.04, { opacity: 0, delay: 10.26 } );
+                        // TweenMax.to("#scanner05", 0.04, { opacity: 1, delay: 10.30 } );
+                        //     TweenMax.to("#scanner04", 0.04, { opacity: 0, delay: 10.30 } );
+                        // TweenMax.to("#scanner06", 0.04, { opacity: 1, delay: 10.34 } );
+                        //     TweenMax.to("#scanner05", 0.04, { opacity: 0, delay: 10.34 } );
+                        // TweenMax.to("#scanner07", 0.04, { opacity: 1, delay: 10.38 } );
+                        //     TweenMax.to("#scanner06", 0.04, { opacity: 0, delay: 10.38 } );
+                        // TweenMax.to("#scanner08", 0.04, { opacity: 1, delay: 10.42 } );
+                        //     TweenMax.to("#scanner07", 0.04, { opacity: 0, delay: 10.42 } );
+                        // TweenMax.to("#scanner09", 0.04, { opacity: 1, delay: 10.46 } );
+                        //     TweenMax.to("#scanner08", 0.04, { opacity: 0, delay: 10.46 } );
+                        // TweenMax.to("#scanner10", 0.04, { opacity: 1, delay: 10.50 } );
+                        //     TweenMax.to("#scanner09", 0.04, { opacity: 0, delay: 10.50 } );
+                        // TweenMax.to("#scanner11", 0.04, { opacity: 1, delay: 10.85 } );
+                        //     TweenMax.to("#scanner10", 0.04, { opacity: 0, delay: 10.85 } );
+                        //     TweenMax.to("#scanner11", 0.04, { opacity: 0, delay: 10.89 } );
 
     TweenMax.to("#mikefyke-text", 1, { zIndex: 2, scaleX: 1.5, scaleY: 1.5, opacity: 1, delay: 8 } );
     TweenMax.to('#clockFace', 1, { scaleX:.03, scaleY:.03, y:'16vh', x:'-24.5vw', delay: 8.5 } );
