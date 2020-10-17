@@ -110,7 +110,7 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#parnell-text", 1, { opacity: 1, y: '-750px', scaleX: 1.5, scaleY: 1.5, delay: 17.5} );
 
     TweenMax.to("#parnellDiv", 1, { opacity: 1, x:'-600px', y:'-450px', delay: 17.5} ) ;
-    
+    TweenMax.to("#ethan-image", 0.05, { content:'url("../images/ethan-gif.gif")', delay: 17.5})
 
     
     TweenMax.to("#parnell-text", 0.5, { x:'-625px', y: '-775px', delay: 20.25} );
