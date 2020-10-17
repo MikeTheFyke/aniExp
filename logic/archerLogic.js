@@ -133,7 +133,7 @@ document.getElementById('cta').addEventListener('click', function () {
 
     TweenMax.to("#clockFace", 1, { x:'-650px', y:'350px', delay: 21.5 });
     TweenMax.to(".orangeDivs", 2, { y:'-1100px', delay: 21 });
-    TweenMax.to("#abby-image", 0.5, { content:'url("../images/abby-gif.gif")', delay: 21.5 });
+    TweenMax.to("#abby-image", 0.5, { content:'url("../images/abby-gif.gif")', delay: 22.75 });
     TweenMax.to("#taylor-text", 1, { x:'1000px', delay: 22});
 
     TweenMax.to("#clockFace", 1, { x:'-350px', y:'275px', scaleX: 0.15, scaleY: 0.15, delay: 23 });
