@@ -111,6 +111,8 @@ document.getElementById('cta').addEventListener('click', function () {
 
     TweenMax.to("#parnellDiv", 1, { opacity: 1, x:'-600px', y:'-450px', delay: 17.5} ) ;
     
+
+    
     TweenMax.to("#parnell-text", 0.5, { x:'-625px', y: '-775px', delay: 20.25} );
     TweenMax.to("#clockFace", 0.5, { x:'-775px', y:'-200px', delay: 20.25 });
     TweenMax.to("#parnellDiv", 0.5, { x:'-1125px', y:'-475', delay: 20.25});
