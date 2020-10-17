@@ -426,6 +426,20 @@ body {
   opacity: 0;
 }
 
+#elec-pulse-right {
+  position: absolute;
+  bottom: 825px;
+  left: 905px;
+  opacity: 0;
+}
+
+#elec-pulse-left {
+  position: absolute;
+  bottom: 825px;
+  left: 865px;
+  opacity: 0;
+}
+
 #buildingsDiv {
   position: absolute;
   bottom: -700px;

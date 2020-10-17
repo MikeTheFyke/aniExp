@@ -103,10 +103,13 @@ document.getElementById('cta').addEventListener('click', function () {
 
     TweenMax.to("#signal-pulse", 0.5, { opacity: 1, scaleX: 3, scaleY: 3, delay: 17.75 } );
     TweenMax.to("#signal-pulse", 0.5, { scaleX: 2, scaleY: 2, delay: 18.25 } );
+    TweenMax.to("#elec-pulse-left", 0.5, { opacity:1, delay: 18.25})
+    TweenMax.to("#elec-pulse-right", 0.5, { opacity:1, delay: 18.25})
     TweenMax.to("#signal-pulse", 0.5, { scaleX: 3, scaleY: 3, delay: 18.75 } );
     TweenMax.to("#signal-pulse", 0.5, { scaleX: 2, scaleY: 2, delay: 19.25 } );
+    TweenMax.to("#elec-pulse-left", 0.5, { opacity:1, delay: 19.25})
+    TweenMax.to("#elec-pulse-right", 0.5, { opacity:1, delay: 19.25})
     TweenMax.to("#signal-pulse", 0.5, { opacity:0, scaleX: 1, scaleY: 1, delay: 19.75 } );
-    
 
     TweenMax.to("#parnell-text", 1, { opacity: 1, y: '-750px', scaleX: 1.5, scaleY: 1.5, delay: 17.5} );
 
