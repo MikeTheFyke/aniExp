@@ -106,11 +106,12 @@ document.getElementById('cta').addEventListener('click', function () {
     TweenMax.to("#signal-pulse", 0.5, { scaleX: 3, scaleY: 3, delay: 18.75 } );
     TweenMax.to("#signal-pulse", 0.5, { scaleX: 2, scaleY: 2, delay: 19.25 } );
     TweenMax.to("#signal-pulse", 0.5, { opacity:0, scaleX: 1, scaleY: 1, delay: 19.75 } );
+    
 
     TweenMax.to("#parnell-text", 1, { opacity: 1, y: '-750px', scaleX: 1.5, scaleY: 1.5, delay: 17.5} );
 
     TweenMax.to("#parnellDiv", 1, { opacity: 1, x:'-600px', y:'-450px', delay: 17.5} ) ;
-    TweenMax.to("#ethan-image", 0.05, { content:'url("../images/ethan-gif.gif")', delay: 17.5})
+    TweenMax.to("#ethan-image", 0.05, { content:'url("../images/ethan-gif.gif")', delay: 18 })
 
     
     TweenMax.to("#parnell-text", 0.5, { x:'-625px', y: '-775px', delay: 20.25} );
