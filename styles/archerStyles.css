@@ -378,6 +378,11 @@ body {
   text-align: center;
 }
 
+#golf-image {
+  height: 100%;
+  width: 100%;
+}
+
 #necklaceDiv {
   position: absolute;
   top: 100px;
