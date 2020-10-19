@@ -47,4 +47,9 @@
   width: 20%;
   height: 100%;
 }
+
+#cta1 {
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
 /*# sourceMappingURL=appleStyles.css.map */
