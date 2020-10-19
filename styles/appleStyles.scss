@@ -25,4 +25,18 @@
 
 .buttons-container{
     margin-top: 320px;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.cta{
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Anton', sans-serif;
+}
+
+.cta img{
+    width: 20%;
+    height: 100%;
 }
