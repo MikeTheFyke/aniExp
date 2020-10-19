@@ -18,6 +18,9 @@
 }
 
 #title-nemesis {
+  position: absolute;
+  top: -400px;
+  left: 0px;
   margin: 0px;
   font-family: 'Anton', sans-serif;
   font-size: 15em;
