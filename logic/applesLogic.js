@@ -1,1 +1,1 @@
-TweenMax.to("#title-nemesis", 1, { y: '410px', delay: 1});
+TweenMax.to("#title-nemesis", 0.5, { y: '410px', delay: 0.5});
