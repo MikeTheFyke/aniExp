@@ -8,7 +8,16 @@
   color: white;
 }
 
-#title h1 {
+#title-authors {
+  position: absolute;
+  top: 0px;
+  left: 4px;
+  margin: 0px;
+  font-family: 'Anton', sans-serif;
+  font-size: 4em;
+}
+
+#title-nemesis {
   margin: 0px;
   font-family: 'Anton', sans-serif;
   font-size: 15em;
