@@ -8,6 +8,7 @@ document.getElementById('cta1').addEventListener('click', function () {
     TweenMax.to("#cta3", 1, { x: '-40vw', opacity:0})
     TweenMax.to("#cta4", 1, { x: '-60vw', opacity:0})
     TweenMax.to("#cta1", 1, { x: window.screen.width / 1.75, delay: 1.5})
+    
 })
 
 document.getElementById('cta2').addEventListener('click', function () {

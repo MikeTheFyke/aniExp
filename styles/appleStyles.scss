@@ -40,9 +40,17 @@
     font-family: 'Anton', sans-serif;
     transform: scaleX(0);
     outline: none;
+    z-index: 1;
 }
 
 .cta img{
     width: 20%;
     height: 100%;
+}
+
+#issue1-cover{
+    position: absolute;
+    top: 300px;
+    margin: 0px 40%;
+    z-index: 0;
 }
