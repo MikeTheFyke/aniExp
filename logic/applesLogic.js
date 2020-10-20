@@ -8,3 +8,21 @@ document.getElementById('cta1').addEventListener('click', function () {
     TweenMax.to("#cta3", 1, { opacity:0})
     TweenMax.to("#cta4", 1, { opacity:0})
 })
+
+document.getElementById('cta2').addEventListener('click', function () {
+    TweenMax.to("#cta1", 1, { opacity:0})
+    TweenMax.to("#cta3", 1, { opacity:0})
+    TweenMax.to("#cta4", 1, { opacity:0})
+})
+
+document.getElementById('cta3').addEventListener('click', function () {
+    TweenMax.to("#cta1", 1, { opacity:0})
+    TweenMax.to("#cta2", 1, { opacity:0})
+    TweenMax.to("#cta4", 1, { opacity:0})
+})
+
+document.getElementById('cta4').addEventListener('click', function () {
+    TweenMax.to("#cta1", 1, { opacity:0})
+    TweenMax.to("#cta2", 1, { opacity:0})
+    TweenMax.to("#cta3", 1, { opacity:0})
+})
