@@ -26,3 +26,10 @@ document.getElementById('cta4').addEventListener('click', function () {
     TweenMax.to("#cta2", 1, { x: '40vw', opacity:0})
     TweenMax.to("#cta3", 1, { x: '20vw', opacity:0})
 })
+
+document.getElementById('title-nemesis').addEventListener('click', function () {
+    TweenMax.to("#cta1", 1, { x: '0', opacity:1})
+    TweenMax.to("#cta2", 1, { x: '0',opacity:1})
+    TweenMax.to("#cta3", 1, { x: '0',opacity:1})
+    TweenMax.to("#cta4", 1, { x: '0',opacity:1})
+})
