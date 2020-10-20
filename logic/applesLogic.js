@@ -4,25 +4,25 @@ TweenMax.to("#title-authors", 0.5, { y: '100px', delay: 1});
 TweenMax.to(".cta", 0.5, { scaleX: 1, delay: 1.5});
 
 document.getElementById('cta1').addEventListener('click', function () {
-    TweenMax.to("#cta2", 1, { opacity:0})
-    TweenMax.to("#cta3", 1, { opacity:0})
-    TweenMax.to("#cta4", 1, { opacity:0})
+    TweenMax.to("#cta2", 1, { x: '-20vw', opacity:0})
+    TweenMax.to("#cta3", 1, { x: '-40vw', opacity:0})
+    TweenMax.to("#cta4", 1, { x: '-60vw', opacity:0})
 })
 
 document.getElementById('cta2').addEventListener('click', function () {
-    TweenMax.to("#cta1", 1, { opacity:0})
-    TweenMax.to("#cta3", 1, { opacity:0})
-    TweenMax.to("#cta4", 1, { opacity:0})
+    TweenMax.to("#cta1", 1, { x: '20vw', opacity:0})
+    TweenMax.to("#cta3", 1, { x: '-20vw', opacity:0})
+    TweenMax.to("#cta4", 1, { x: '-40vw', opacity:0})
 })
 
 document.getElementById('cta3').addEventListener('click', function () {
-    TweenMax.to("#cta1", 1, { opacity:0})
-    TweenMax.to("#cta2", 1, { opacity:0})
-    TweenMax.to("#cta4", 1, { opacity:0})
+    TweenMax.to("#cta1", 1, { x: '40vw', opacity:0})
+    TweenMax.to("#cta2", 1, { x: '20vw', opacity:0})
+    TweenMax.to("#cta4", 1, { x: '-20vw', opacity:0})
 })
 
 document.getElementById('cta4').addEventListener('click', function () {
-    TweenMax.to("#cta1", 1, { opacity:0})
-    TweenMax.to("#cta2", 1, { opacity:0})
-    TweenMax.to("#cta3", 1, { opacity:0})
+    TweenMax.to("#cta1", 1, { x: '60vw', opacity:0})
+    TweenMax.to("#cta2", 1, { x: '40vw', opacity:0})
+    TweenMax.to("#cta3", 1, { x: '20vw', opacity:0})
 })
