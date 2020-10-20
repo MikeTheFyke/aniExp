@@ -9,6 +9,8 @@ document.getElementById('cta1').addEventListener('click', function () {
     TweenMax.to("#cta4", 1, { x: '-60vw', opacity:0})
     TweenMax.to("#cta1", 1, { x: window.screen.width / 1.75, delay: 1.5})
     TweenMax.to("#issue1-cover", 1, { opacity: 1, scaleX: 2, scaleY: 1.5, delay: 2.5});
+    TweenMax.to("#cta1", 1, { opacity: 0, delay: 2.5})
+    TweenMax.to(".buttons-container", 1, { zIndex: 0, delay: 2.5})
 })
 
 document.getElementById('cta2').addEventListener('click', function () {
