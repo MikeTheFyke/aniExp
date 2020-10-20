@@ -14,7 +14,7 @@ document.getElementById('cta2').addEventListener('click', function () {
     TweenMax.to("#cta1", 1, { x: '20vw', opacity:0})
     TweenMax.to("#cta3", 1, { x: '-20vw', opacity:0})
     TweenMax.to("#cta4", 1, { x: '-40vw', opacity:0})
-    TweenMax.to("#cta2", 1, { x: window.screen.width / 8, delay: 1.5})
+    TweenMax.to("#cta2", 1, { x: window.screen.width / 6, delay: 1.5})
 })
 
 document.getElementById('cta3').addEventListener('click', function () {
