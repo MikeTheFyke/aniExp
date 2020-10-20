@@ -56,6 +56,11 @@
   position: absolute;
   top: 300px;
   margin: 0px 40%;
-  z-index: 0;
+}
+
+#issue2-cover {
+  position: absolute;
+  top: 300px;
+  margin: 0px 40%;
 }
 /*# sourceMappingURL=appleStyles.css.map */
