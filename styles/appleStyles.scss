@@ -38,13 +38,11 @@
     background-color: transparent;
     border-color: transparent;
     font-family: 'Anton', sans-serif;
+    transform: scaleX(0);
+    outline: none;
 }
 
 .cta img{
     width: 20%;
     height: 100%;
-}
-
-.cta{
-    transform: scaleX(0);
 }
