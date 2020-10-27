@@ -1,6 +1,6 @@
 var page = 1;
 
-function nemesis1 () {
+function nemesis1Forward () {
     TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis01/Nemesis01-page'+ page + '.jpg")'});
     if (page >= 23){
         TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis1TextLessCover.png")'});
@@ -8,6 +8,10 @@ function nemesis1 () {
     } else {
         page ++;
     }
+}
+
+function nemesis1Back () {
+    
 }
 
 document.getElementById('page-button').addEventListener('mouseover', function(){
