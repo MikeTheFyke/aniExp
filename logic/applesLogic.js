@@ -14,6 +14,7 @@ document.getElementById('cta1').addEventListener('click', function () {
 
     TweenMax.to("#title-nemesis", 1, {fontSize: '10em', y: '394px', transformOrign: "bottom right", delay: 2.5})
     TweenMax.to("#title-authors", 1, {fontSize: '2em', delay: 2.5})
+    TweenMax.to("#title", 1, {height: '200px', delay: 2.5})
 
     TweenMax.to("#cta1", 1, { opacity: 0, delay: 2.5})
     TweenMax.to(".buttons-container", 1, { zIndex: 0, delay: 2.5})
@@ -29,6 +30,7 @@ document.getElementById('cta2').addEventListener('click', function () {
     
     TweenMax.to("#title-nemesis", 1, {fontSize: '10em', y: '394px', delay: 2.5})
     TweenMax.to("#title-authors", 1, {fontSize: '2em', delay: 2.5})
+    TweenMax.to("#title", 1, {height: '200px', delay: 2.5})
 
     TweenMax.to("#cta2", 1, { opacity: 0, delay: 2.5})
     TweenMax.to(".buttons-container", 1, { zIndex: 0, delay: 2.5})
@@ -44,6 +46,7 @@ document.getElementById('cta3').addEventListener('click', function () {
 
     TweenMax.to("#title-nemesis", 1, {fontSize: '10em', y: '394px', delay: 2.5})
     TweenMax.to("#title-authors", 1, {fontSize: '2em', delay: 2.5})
+    TweenMax.to("#title", 1, {height: '200px', delay: 2.5})
 
     TweenMax.to("#cta3", 1, { opacity: 0, delay: 2.5})
     TweenMax.to(".buttons-container", 1, { zIndex: 0, delay: 2.5})
@@ -59,6 +62,7 @@ document.getElementById('cta4').addEventListener('click', function () {
 
     TweenMax.to("#title-nemesis", 1, {fontSize: '10em', y: '394px', delay: 2.5})
     TweenMax.to("#title-authors", 1, {fontSize: '2em', delay: 2.5})
+    TweenMax.to("#title", 1, {height: '200px', delay: 2.5})
     
     TweenMax.to("#cta4", 1, { opacity: 0, delay: 2.5})
     TweenMax.to(".buttons-container", 1, { zIndex: 0, delay: 2.5})
@@ -76,4 +80,5 @@ document.getElementById('title-nemesis').addEventListener('click', function () {
     TweenMax.to("#issue4-cover", 1, { opacity: 0, y: 0, scaleX: 1, scaleY: 1})
     TweenMax.to("#title-nemesis", 1, {fontSize: '15em', y: '400px', delay: 1})
     TweenMax.to("#title-authors", 1, {fontSize: '4em', delay: 1})
+    TweenMax.to("#title", 1, {height: '300px', delay: 1})
 })
