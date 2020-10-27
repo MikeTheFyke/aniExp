@@ -3,6 +3,7 @@ var page = 1;
 // Forward Button Logic
 function nemesis1Forward () {
     TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis01/Nemesis01-page'+ page + '.jpg")'});
+    document.getElementById('page-icon-number').innerHTML = page + 1;
     console.log(" Page # " + page);
     if (page >= 23){
         TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis1TextLessCover.png")'});
