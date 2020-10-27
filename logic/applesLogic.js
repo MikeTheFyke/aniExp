@@ -22,6 +22,14 @@ document.getElementById('cta1').addEventListener('click', function () {
     TweenMax.to(".buttons-container", 1, { zIndex: 0, delay: 2.5})
 })
 
+document.getElementById('cta1').addEventListener('mouseover', function(){
+    TweenMax.to('#cta1', 1.5, { y: '200px', scale: 3, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('cta1').addEventListener('mouseout', function(){
+    TweenMax.to('#cta1', 1.5, { y: '0px', scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
 // cta2
 document.getElementById('cta2').addEventListener('click', function () {
     TweenMax.to("#cta1", 1, { x: '20vw', opacity:0})
@@ -39,6 +47,14 @@ document.getElementById('cta2').addEventListener('click', function () {
     TweenMax.to("#cta2", 1, { opacity: 0, delay: 2.5})
     TweenMax.to(".buttons-container", 1, { zIndex: 0, delay: 2.5})
 })
+
+document.getElementById('cta2').addEventListener('mouseover', function(){
+    TweenMax.to('#cta2', 1.5, { y: '200px', scale: 3, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('cta2').addEventListener('mouseout', function(){
+    TweenMax.to('#cta2', 1.5, { y: '0px', scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+});
 
 // cta3
 document.getElementById('cta3').addEventListener('click', function () {
@@ -58,6 +74,14 @@ document.getElementById('cta3').addEventListener('click', function () {
     TweenMax.to(".buttons-container", 1, { zIndex: 0, delay: 2.5})
 })
 
+document.getElementById('cta3').addEventListener('mouseover', function(){
+    TweenMax.to('#cta3', 1.5, { y: '200px', scale: 3, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('cta3').addEventListener('mouseout', function(){
+    TweenMax.to('#cta3', 1.5, { y: '0px', scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
 // cta4
 document.getElementById('cta4').addEventListener('click', function () {
     TweenMax.to("#cta1", 1, { x: '60vw', opacity:0})
@@ -75,6 +99,14 @@ document.getElementById('cta4').addEventListener('click', function () {
     TweenMax.to("#cta4", 1, { opacity: 0, delay: 2.5})
     TweenMax.to(".buttons-container", 1, { zIndex: 0, delay: 2.5})
 })
+
+document.getElementById('cta4').addEventListener('mouseover', function(){
+    TweenMax.to('#cta4', 1.5, { y: '200px', scale: 3, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('cta4').addEventListener('mouseout', function(){
+    TweenMax.to('#cta4', 1.5, { y: '0px', scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+});
 
 // Reset by title click
 document.getElementById('title-nemesis').addEventListener('click', function () {
