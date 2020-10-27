@@ -7,13 +7,14 @@ function nemesis1Forward () {
     console.log(" Page # " + page);
     if (page >=24 ){
         TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis1TextLessCover.png")'});
-        document.getElementById('page-icon-number').innerHTML = "Cover";
+        document.getElementById('page-icon-number').innerHTML = "";
         page = 1;
         console.log(" Page # " + page);
     } 
     else if (page == 0){
         TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis1TextLessCover.png")'});
         console.log(" Page # " + page);
+        document.getElementById('page-icon-number').innerHTML = "";
         page = 1;
     } else {
         page ++;
@@ -35,6 +36,7 @@ function nemesis1Back () {
     console.log(" Page # " + page);
     if (page < 1){
         TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis1TextLessCover.png")'});
+        document.getElementById('page-icon-number').innerHTML = "";
         console.log(" Page # " + page);
         page = 0;
     } else {
