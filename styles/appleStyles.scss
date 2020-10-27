@@ -48,16 +48,6 @@
     height: 100%;
 }
 
-#cover1-container{
-    position: absolute;
-    top: 300px;
-    margin: 0px 40%;
-    opacity: 0;
-}
-
-#issue1-cover{
-}
-
 #page-button{
     position: relative;
     bottom: 60px;
@@ -74,20 +64,27 @@
     height: 100%;
 }
 
-#issue2-cover{
+#cover1-container{
     position: absolute;
     top: 300px;
     margin: 0px 40%;
     opacity: 0;
 }
 
-#issue3-cover{
+#cover2-container{
     position: absolute;
     top: 300px;
     margin: 0px 40%;
     opacity: 0;
 }
-#issue4-cover{
+
+#cover3-container{
+    position: absolute;
+    top: 300px;
+    margin: 0px 40%;
+    opacity: 0;
+}
+#cover4-container{
     position: absolute;
     top: 300px;
     margin: 0px 43.5%;
