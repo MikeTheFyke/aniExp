@@ -10,10 +10,10 @@ function nemesis1 () {
     }
 }
 
-document.getElementById('#page-button').addEventListener('mouseover', function(){
+document.getElementById('page-button').addEventListener('mouseover', function(){
     TweenMax.to('#page-button', 1.5, { scale: 2, ease: Elastic.easeOut.config(1, 0.3) } );
 });
 
-document.getElementById('cta').addEventListener('mouseout', function(){
+document.getElementById('page-button').addEventListener('mouseout', function(){
     TweenMax.to('#page-button', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
 });

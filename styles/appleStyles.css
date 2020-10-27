@@ -61,6 +61,8 @@
   border-color: transparent;
   background-color: transparent;
   outline: none;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 #page-icon {
