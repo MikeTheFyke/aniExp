@@ -13,6 +13,8 @@ document.getElementById('cta1').addEventListener('click', function () {
     TweenMax.to("#cover1-container", 1, { opacity: 1, y: -100, scaleX: 2, scaleY: 1.5, delay: 2.5});
 
     TweenMax.to("#title-nemesis", 1, {fontSize: '10em', y: '394px', transformOrign: "bottom right", delay: 2.5})
+    TweenMax.to("#title-nemesis", 0.5, {fontSize: '9.5em', y: '394px', transformOrign: "bottom right", delay: 3.5})
+    TweenMax.to("#title-nemesis", 0.5, {fontSize: '9.75em', y: '394px', transformOrign: "bottom right", delay: 4})
     TweenMax.to("#title-authors", 1, {fontSize: '2em', delay: 2.5})
     TweenMax.to("#title", 1, {height: '200px', delay: 2.5})
 
@@ -29,6 +31,8 @@ document.getElementById('cta2').addEventListener('click', function () {
     TweenMax.to("#cover2-container", 1, { opacity: 1, y: -100, scaleX: 2, scaleY: 1.5, delay: 2.5});
     
     TweenMax.to("#title-nemesis", 1, {fontSize: '10em', y: '394px', delay: 2.5})
+    TweenMax.to("#title-nemesis", 0.5, {fontSize: '9.5em', y: '394px', transformOrign: "bottom right", delay: 3.5})
+    TweenMax.to("#title-nemesis", 0.5, {fontSize: '9.75em', y: '394px', transformOrign: "bottom right", delay: 4})
     TweenMax.to("#title-authors", 1, {fontSize: '2em', delay: 2.5})
     TweenMax.to("#title", 1, {height: '200px', delay: 2.5})
 
@@ -45,6 +49,8 @@ document.getElementById('cta3').addEventListener('click', function () {
     TweenMax.to("#cover3-container", 1, { opacity: 1, y: -100, scaleX: 2, scaleY: 1.5, delay: 2.5});
 
     TweenMax.to("#title-nemesis", 1, {fontSize: '10em', y: '394px', delay: 2.5})
+    TweenMax.to("#title-nemesis", 0.5, {fontSize: '9.5em', y: '394px', transformOrign: "bottom right", delay: 3.5})
+    TweenMax.to("#title-nemesis", 0.5, {fontSize: '9.75em', y: '394px', transformOrign: "bottom right", delay: 4})
     TweenMax.to("#title-authors", 1, {fontSize: '2em', delay: 2.5})
     TweenMax.to("#title", 1, {height: '200px', delay: 2.5})
 
@@ -61,6 +67,8 @@ document.getElementById('cta4').addEventListener('click', function () {
     TweenMax.to("#cover4-container", 1, { opacity: 1, y: -100, scaleX: 2, scaleY: 1.5, delay: 2.5});
 
     TweenMax.to("#title-nemesis", 1, {fontSize: '10em', y: '394px', delay: 2.5})
+    TweenMax.to("#title-nemesis", 0.5, {fontSize: '9.5em', y: '394px', transformOrign: "bottom right", delay: 3.5})
+    TweenMax.to("#title-nemesis", 0.5, {fontSize: '9.75em', y: '394px', transformOrign: "bottom right", delay: 4})
     TweenMax.to("#title-authors", 1, {fontSize: '2em', delay: 2.5})
     TweenMax.to("#title", 1, {height: '200px', delay: 2.5})
     
