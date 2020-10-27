@@ -68,7 +68,7 @@
 #page-icon-number {
   position: relative;
   bottom: 80px;
-  left: -7px;
+  left: 110px;
   font-size: 30px;
 }
 
@@ -89,13 +89,6 @@
   outline: none;
   -webkit-transform: scale(1);
           transform: scale(1);
-}
-
-#pageback-icon-number {
-  position: relative;
-  bottom: 80px;
-  left: 4px;
-  font-size: 30px;
 }
 
 #pageback-icon {

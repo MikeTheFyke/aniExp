@@ -3,11 +3,11 @@ var page = 1;
 // Forward Button Logic
 function nemesis1Forward () {
     TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis01/Nemesis01-page'+ page + '.jpg")'});
-    document.getElementById('page-icon-number').innerHTML = page + 1;
-    document.getElementById('pageback-icon-number').innerHTML = page - 1;
+    document.getElementById('page-icon-number').innerHTML = page;
     console.log(" Page # " + page);
-    if (page >= 23){
+    if (page >=24 ){
         TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis1TextLessCover.png")'});
+        document.getElementById('page-icon-number').innerHTML = "Cover";
         page = 1;
         console.log(" Page # " + page);
     } 
@@ -31,12 +31,10 @@ document.getElementById('page-button').addEventListener('mouseout', function(){
 // Back Button Logic
 function nemesis1Back () {
     TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis01/Nemesis01-page'+ page + '.jpg")'});
-    document.getElementById('page-icon-number').innerHTML = page + 1;
-    document.getElementById('pageback-icon-number').innerHTML = page - 1;
+    document.getElementById('page-icon-number').innerHTML = page;
     console.log(" Page # " + page);
     if (page < 1){
         TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis1TextLessCover.png")'});
-        document.getElementById('pageback-icon-number').innerHTML = ("Cover");
         console.log(" Page # " + page);
         page = 0;
     } else {
