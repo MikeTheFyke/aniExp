@@ -74,7 +74,7 @@ document.getElementById('title-nemesis').addEventListener('click', function () {
     TweenMax.to("#cta2", 1, { x: '0',opacity:1, zIndex: 1})
     TweenMax.to("#cta3", 1, { x: '0',opacity:1, zIndex: 1})
     TweenMax.to("#cta4", 1, { x: '0',opacity:1, zIndex: 1})
-    TweenMax.to("#issue1-cover", 1, { opacity: 0, y: 0, scaleX: 1, scaleY: 1})
+    TweenMax.to("#cover1-container", 1, { opacity: 0, y: 0, scaleX: 1, scaleY: 1})
     TweenMax.to("#issue2-cover", 1, { opacity: 0, y: 0, scaleX: 1, scaleY: 1})
     TweenMax.to("#issue3-cover", 1, { opacity: 0, y: 0, scaleX: 1, scaleY: 1})
     TweenMax.to("#issue4-cover", 1, { opacity: 0, y: 0, scaleX: 1, scaleY: 1})
