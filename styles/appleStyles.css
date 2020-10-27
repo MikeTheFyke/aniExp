@@ -68,7 +68,7 @@
 #page-icon-number {
   position: relative;
   bottom: 80px;
-  left: 110px;
+  left: 150px;
   font-size: 30px;
 }
 
@@ -129,8 +129,9 @@
   border-color: black;
   border-style: 1px solid;
   border-radius: 10px;
-  width: 340px;
-  height: 570px;
+  background-color: white;
+  width: 425px;
+  height: 712.5px;
   border-width: 1px;
   border-style: solid;
 }
@@ -143,8 +144,9 @@
   border-color: black;
   border-style: 1px solid;
   border-radius: 10px;
-  width: 340px;
-  height: 570px;
+  background-color: white;
+  width: 425px;
+  height: 712.5px;
   border-width: 1px;
   border-style: solid;
 }
@@ -157,8 +159,9 @@
   border-color: black;
   border-style: 1px solid;
   border-radius: 10px;
-  width: 340px;
-  height: 570px;
+  background-color: white;
+  width: 425px;
+  height: 712.5px;
   border-width: 1px;
   border-style: solid;
 }
@@ -171,8 +174,9 @@
   border-color: black;
   border-style: 1px solid;
   border-radius: 10px;
-  width: 340px;
-  height: 570px;
+  background-color: white;
+  width: 425px;
+  height: 712.5px;
   border-width: 1px;
   border-style: solid;
 }
