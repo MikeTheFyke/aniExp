@@ -16,7 +16,7 @@ document.getElementById('cta1').addEventListener('click', function () {
     TweenMax.to("#title-nemesis", 0.5, {fontSize: '9.5em', y: '394px', transformOrign: "bottom right", delay: 3.5})
     TweenMax.to("#title-nemesis", 0.5, {fontSize: '9.75em', y: '394px', transformOrign: "bottom right", delay: 4})
     TweenMax.to("#title-authors", 1, {fontSize: '2em', delay: 2.5})
-    TweenMax.to("#title", 1, {height: '200px', delay: 2.5})
+    TweenMax.to("#title", 1, {height: '180px', delay: 2.5})
 
     TweenMax.to("#cta1", 1, { opacity: 0, delay: 2.5})
     TweenMax.to(".buttons-container", 1, { zIndex: 0, delay: 2.5})
