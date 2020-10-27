@@ -66,6 +66,7 @@
 #page-icon {
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }
 
 #cover1-container {
