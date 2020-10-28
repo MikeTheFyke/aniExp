@@ -276,13 +276,13 @@
 #Panel03-02 {
   position: inherit;
   top: 0px;
-  left: 0px;
+  left: -25px;
 }
 
 #Panel03-03 {
   position: inherit;
   top: 0px;
-  left: 0px;
+  left: 25px;
 }
 
 #Panel03-04 {
@@ -294,7 +294,7 @@
 #Panel03-05 {
   position: inherit;
   top: 0px;
-  left: 0px;
+  right: -25px;
 }
 
 #Panel03-06 {

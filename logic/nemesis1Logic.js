@@ -101,3 +101,21 @@ document.getElementById('Panel02-04').addEventListener('mouseout', function(){
     TweenMax.to('#Panel02-03', 1.5, { x:'0px' } );
     TweenMax.to('#Panel02-04', .5, { x:'0px' } );
 });
+
+// Panel 03
+
+document.getElementById('Panel03-06').addEventListener('mouseover', function(){
+    TweenMax.to('#Panel03-02', 1.5, { x:'25px' } );
+    TweenMax.to('#Panel03-03', 1.5, { x:'-25px' } );
+    TweenMax.to('#Panel03-04', 1.5, { x:'25px' } );
+    TweenMax.to('#Panel03-05', 1.5, { x:'-25px' } );
+    TweenMax.to('#Panel03-06', 1.5, { x:'25px' } );
+});
+
+document.getElementById('Panel03-06').addEventListener('mouseout', function(){
+    TweenMax.to('#Panel03-02', 1.5, { x:'0px' } );
+    TweenMax.to('#Panel03-03', 1.5, { x:'0px' } );
+    TweenMax.to('#Panel03-04', .5, { x:'0px' } );
+    TweenMax.to('#Panel03-05', 1.5, { x:'0px' } );
+    TweenMax.to('#Panel03-06', 1.5, { x:'0px' } );
+});
