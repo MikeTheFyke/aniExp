@@ -51,3 +51,13 @@ document.getElementById('pageback-button').addEventListener('mouseover', functio
 document.getElementById('pageback-button').addEventListener('mouseout', function(){
     TweenMax.to('#pageback-button', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
 });
+
+// Panel 01
+
+document.getElementById('Panel01-Build').addEventListener('mouseover', function(){
+    TweenMax.to('#Panel01-Build', 1.5, { x:'25px' } );
+});
+
+document.getElementById('Panel01-Build').addEventListener('mouseout', function(){
+    TweenMax.to('#Panel01-Build', 1.5, { x:'0px' } );
+});
