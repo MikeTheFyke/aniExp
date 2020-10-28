@@ -183,10 +183,10 @@
 
 #Page01 {
   position: absolute;
-  top: 300px;
-  margin: 0px 40%;
-  width: 425px;
-  height: 712.5px;
+  top: 92px;
+  margin: 0px 33.5%;
+  width: 700px;
+  height: 292px;
 }
 
 .Panel01 {
@@ -201,7 +201,7 @@
 }
 
 #Panel01-Build {
-  position: relative;
+  position: inherit;
   top: 0px;
   left: 0px;
 }
