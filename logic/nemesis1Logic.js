@@ -1,4 +1,4 @@
-var page = 1;
+var page = 0;
 
 // Forward Button Logic
 function nemesis1Forward () {
