@@ -57,6 +57,28 @@ document.getElementById('pageback-button').addEventListener('mouseout', function
 document.getElementById('Panel01-Build').addEventListener('mouseover', function(){
     TweenMax.to('#Panel01-Build', 1.5, { x:'25px' } );
     TweenMax.to('#Panel01-Back', 1.5, { scaleX:'1.05', transformOrigin: 'right' } );
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "L", delay: 0.05})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LO", delay: 0.10})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOA", delay: 0.15})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOAD", delay: 0.20})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADI", delay: 0.25})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADIN", delay: 0.30})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING", delay: 0.35})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING ", delay: 0.40})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING P", delay: 0.45})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PL", delay: 0.50})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLA", delay: 0.55})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAY", delay: 0.60})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYE", delay: 0.65})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER", delay: 0.70})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ", delay: 0.75})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER O", delay: 0.80})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ON", delay: 0.85})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ONE", delay: 0.90})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ONE ", delay: 0.95})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ONE .", delay: 1.00})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ONE ..", delay: 1.05})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ONE ...", delay: 1.10})
 });
 
 document.getElementById('Panel01-Build').addEventListener('mouseout', function(){
