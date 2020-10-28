@@ -85,3 +85,19 @@ document.getElementById('Panel01-Build').addEventListener('mouseout', function()
     TweenMax.to('#Panel01-Build', 1.5, { x:'0px' } );
     TweenMax.to('#Panel01-Back', 1.5, { scaleX:'1', transformOrigin: 'right' } );
 });
+
+// Panel 02
+
+document.getElementById('Panel02-04').addEventListener('mouseover', function(){
+    TweenMax.to('#Panel02-Back', 1.5, { scaleX:'1.05', transformOrigin: 'right' } );
+    TweenMax.to('#Panel02-02', 1.5, { x:'45px' } );
+    TweenMax.to('#Panel02-03', 1.5, { x:'35px' } );
+    TweenMax.to('#Panel02-04', .5, { x:'25px' } );
+});
+
+document.getElementById('Panel02-04').addEventListener('mouseout', function(){
+    TweenMax.to('#Panel02-Back', 1.5, { scaleX:'1', transformOrigin: 'right' } );
+    TweenMax.to('#Panel02-02', 1.5, { x:'0px' } );
+    TweenMax.to('#Panel02-03', 1.5, { x:'0px' } );
+    TweenMax.to('#Panel02-04', .5, { x:'0px' } );
+});
