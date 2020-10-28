@@ -56,8 +56,10 @@ document.getElementById('pageback-button').addEventListener('mouseout', function
 
 document.getElementById('Panel01-Build').addEventListener('mouseover', function(){
     TweenMax.to('#Panel01-Build', 1.5, { x:'25px' } );
+    TweenMax.to('#Panel01-Back', 1.5, { x:'-25px' } );
 });
 
 document.getElementById('Panel01-Build').addEventListener('mouseout', function(){
     TweenMax.to('#Panel01-Build', 1.5, { x:'0px' } );
+    TweenMax.to('#Panel01-Back', 1.5, { x:'0px' } );
 });
