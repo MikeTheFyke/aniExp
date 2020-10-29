@@ -46,6 +46,10 @@ function nemesis1Back () {
         document.getElementById('page-icon-number').innerHTML = "";
         console.log(" Page # " + page);
         page = 0;
+    } 
+    else if (page == 1){
+        TweenMax.to("#Nemesis01-Panels", 0, { opacity: 1})
+        page --;
     } else {
         page --;
     }
