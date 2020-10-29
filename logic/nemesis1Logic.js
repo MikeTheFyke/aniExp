@@ -2,9 +2,16 @@ var page = 0;
 
 // Forward Button Logic
 function nemesis1Forward () {
-    TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis01/Nemesis01-page'+ page + '.jpg")'});
-    document.getElementById('page-icon-number').innerHTML = page;
+    page ++;
     console.log(" Page # " + page);
+    if (page == 1){
+        TweenMax.to("#Nemesis01-Panels", 0, { opacity: 1})
+        page ++;
+    } else if (page >=2 || page <24){
+        TweenMax.to("#Nemesis01-Panels", 0, { opacity: 0})
+        TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis01/Nemesis01-page'+ page + '.jpg")'});
+        document.getElementById('page-icon-number').innerHTML = page;
+    }
     if (page >=24 ){
         TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis1TextLessCover.png")'});
         document.getElementById('page-icon-number').innerHTML = "";
@@ -55,6 +62,9 @@ document.getElementById('pageback-button').addEventListener('mouseout', function
 // Panel 01
 
 document.getElementById('Panel01-Build').addEventListener('mouseover', function(){
+    TweenMax.to("#Page01", 0, { zIndex: 4 })
+    TweenMax.to("#Page02", 0, { zIndex: 4 })
+    TweenMax.to("#Page03", 0, { zIndex: 4 })
     TweenMax.to('#Panel01-Build', 1.5, { x:'25px' } );
     TweenMax.to('#Panel01-Back', 1.5, { scaleX:'1.05', transformOrigin: 'right' } );
     TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "L", delay: 0.05})
@@ -89,7 +99,9 @@ document.getElementById('Panel01-Build').addEventListener('mouseout', function()
 // Panel 02
 
 document.getElementById('Panel02-04').addEventListener('mouseover', function(){
+    TweenMax.to("#Page01", 0, { zIndex: 4 })
     TweenMax.to("#Page02", 0, { zIndex: 4 })
+    TweenMax.to("#Page03", 0, { zIndex: 4 })
     TweenMax.to('#Panel02-Back', 1.5, { scaleX:'1.05', transformOrigin: 'right' } );
     TweenMax.to('#Panel02-02', 1.5, { x:'45px' } );
     TweenMax.to('#Panel02-03', 1.5, { x:'35px' } );
@@ -106,6 +118,9 @@ document.getElementById('Panel02-04').addEventListener('mouseout', function(){
 // Panel 03
 
 document.getElementById('Panel03-06').addEventListener('mouseover', function(){
+    TweenMax.to("#Page01", 0, { zIndex: 4 })
+    TweenMax.to("#Page02", 0, { zIndex: 4 })
+    TweenMax.to("#Page03", 0, { zIndex: 4 })
     TweenMax.to('#Panel03-02', 1.5, { x:'25px' } );
     TweenMax.to('#Panel03-03', 1.5, { x:'-25px' } );
     TweenMax.to('#Panel03-04', 1.5, { x:'25px' } );
