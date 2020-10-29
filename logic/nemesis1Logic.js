@@ -89,6 +89,7 @@ document.getElementById('Panel01-Build').addEventListener('mouseout', function()
 // Panel 02
 
 document.getElementById('Panel02-04').addEventListener('mouseover', function(){
+    TweenMax.to("#Page02", 0, { zIndex: 4 })
     TweenMax.to('#Panel02-Back', 1.5, { scaleX:'1.05', transformOrigin: 'right' } );
     TweenMax.to('#Panel02-02', 1.5, { x:'45px' } );
     TweenMax.to('#Panel02-03', 1.5, { x:'35px' } );
