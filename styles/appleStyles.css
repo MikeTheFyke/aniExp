@@ -217,10 +217,10 @@
 
 #Page02 {
   position: absolute;
-  top: 395px;
-  margin: 0px 33.75%;
-  width: 687px;
-  height: 292px;
+  top: 248px;
+  margin: 0px 39.75px;
+  width: 344px;
+  height: 195px;
   overflow: hidden;
 }
 
@@ -255,10 +255,10 @@
 
 #Page03 {
   position: absolute;
-  top: 700px;
-  margin: 0px 33.75%;
-  width: 687px;
-  height: 292px;
+  top: 452px;
+  margin: 0px 39.75px;
+  width: 344px;
+  height: 190px;
   overflow: hidden;
 }
 
