@@ -5,11 +5,12 @@ function nemesis1Forward () {
     page ++;
     console.log(" Page # " + page);
     if (page == 1){
+        TweenMax.to("#issue1-cover", 0, { opacity: 0});
         TweenMax.to("#Nemesis01-Panels", 0, { opacity: 1})
-        page ++;
+        document.getElementById('page-icon-number').innerHTML = page;
     } else if (page >=2 || page <24){
         TweenMax.to("#Nemesis01-Panels", 0, { opacity: 0})
-        TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis01/Nemesis01-page'+ page + '.jpg")'});
+        TweenMax.to("#issue1-cover", 0, { opacity: 1, content:'url("../images/Nemesis/Nemesis01/Nemesis01-page'+ page + '.jpg")'});
         document.getElementById('page-icon-number').innerHTML = page;
     }
     if (page >=24 ){
@@ -23,8 +24,6 @@ function nemesis1Forward () {
         console.log(" Page # " + page);
         document.getElementById('page-icon-number').innerHTML = "";
         page = 1;
-    } else {
-        page ++;
     }
 }
 
@@ -44,9 +43,10 @@ function nemesis1Back () {
     if (page < 1){
         TweenMax.to("#issue1-cover", 0, { content:'url("../images/Nemesis/Nemesis1TextLessCover.png")'});
         document.getElementById('page-icon-number').innerHTML = "";
+        TweenMax.to("#Nemesis01-Panels", 0, { opacity: 0})
         console.log(" Page # " + page);
         page = 0;
-    } 
+    }
     else if (page == 1){
         TweenMax.to("#Nemesis01-Panels", 0, { opacity: 1})
         page --;
@@ -86,13 +86,13 @@ document.getElementById('Panel01-Build').addEventListener('mouseover', function(
     TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYE", delay: 0.65})
     TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER", delay: 0.70})
     TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ", delay: 0.75})
-    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER O", delay: 0.80})
-    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ON", delay: 0.85})
-    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ONE", delay: 0.90})
-    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ONE ", delay: 0.95})
-    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ONE .", delay: 1.00})
-    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ONE ..", delay: 1.05})
-    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ONE ...", delay: 1.10})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER ,", delay: 0.80})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER , ", delay: 0.85})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER , T", delay: 0.90})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER , TO", delay: 0.95})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER , TOK", delay: 1.00})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER , TOKY", delay: 1.05})
+    TweenMax.to('#Panel01-Text', 0.05, { innerHTML: "LOADING PLAYER , TOKYO", delay: 1.10})
 });
 
 document.getElementById('Panel01-Build').addEventListener('mouseout', function(){
