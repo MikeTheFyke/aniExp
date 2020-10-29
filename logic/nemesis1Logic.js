@@ -109,7 +109,7 @@ document.getElementById('Panel03-06').addEventListener('mouseover', function(){
     TweenMax.to('#Panel03-03', 1.5, { x:'-25px' } );
     TweenMax.to('#Panel03-04', 1.5, { x:'25px' } );
     TweenMax.to('#Panel03-05', 1.5, { x:'-25px' } );
-    TweenMax.to('#Panel03-06', 1.5, { x:'25px' } );
+    TweenMax.to('#Panel03-06', 1.5, { x:'25px', opacity: 1 } );
 });
 
 document.getElementById('Panel03-06').addEventListener('mouseout', function(){
@@ -117,5 +117,5 @@ document.getElementById('Panel03-06').addEventListener('mouseout', function(){
     TweenMax.to('#Panel03-03', 1.5, { x:'0px' } );
     TweenMax.to('#Panel03-04', .5, { x:'0px' } );
     TweenMax.to('#Panel03-05', 1.5, { x:'0px' } );
-    TweenMax.to('#Panel03-06', 1.5, { x:'0px' } );
+    TweenMax.to('#Panel03-06', 1.5, { x:'0px', opacity: 0 } );
 });
