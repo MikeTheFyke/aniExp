@@ -47,7 +47,7 @@
   z-index: 1;
 }
 
-#cta1-text-container {
+.cta-text-container {
   position: absolute;
   top: -110px;
   right: 80px;
@@ -55,7 +55,23 @@
   opacity: 0;
 }
 
-#cta1-text {
+#cta1-text-container {
+  opacity: 0;
+}
+
+#cta2-text-container {
+  opacity: 0;
+}
+
+#cta3-text-container {
+  opacity: 0;
+}
+
+#cta4-text-container {
+  opacity: 0;
+}
+
+.cta-text {
   font-family: 'Anton', sans-serif;
   line-height: 70px;
   font-size: 5em;
