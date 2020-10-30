@@ -44,11 +44,28 @@
 }
 
 #cta1-text-container{
+    position: absolute;
+    top: -50px;
+    right: 20px;
     text-align: center;
 }
 
+#cta1-text-outer{
+    font-family: 'Anton', sans-serif;
+    line-height: 70px;
+    font-size: 70px;
+    color: black;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: white;
+}
+
 #cta1-text{
-    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    line-height: 70px;
+    font-size: 70px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .cta img{
