@@ -47,6 +47,14 @@
   z-index: 1;
 }
 
+#cta1-text-container {
+  text-align: center;
+}
+
+#cta1-text {
+  font-size: 80px;
+}
+
 .cta img {
   width: 20%;
   height: 100%;
