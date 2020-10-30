@@ -152,3 +152,12 @@ document.getElementById('cta2-text-container').addEventListener('mouseover', fun
 document.getElementById('cta2-text-container').addEventListener('mouseout', function(){
     TweenMax.to('.cta-text', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
 });
+
+// cta3
+document.getElementById('cta3-text-container').addEventListener('mouseover', function(){
+    TweenMax.to('.cta-text', 2, { scale: 1.5, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('cta3-text-container').addEventListener('mouseout', function(){
+    TweenMax.to('.cta-text', 2, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+});
