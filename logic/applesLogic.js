@@ -112,6 +112,7 @@ document.getElementById('cta4').addEventListener('mouseout', function(){
 // Reset by title click
 document.getElementById('title-nemesis').addEventListener('click', function () {
     TweenMax.to("#cta1", 1, { x: '0', opacity:1, zIndex: 1})
+    TweenMax.to("#cta1-text-container", 0.5, { opacity: 0, y: '0px'});
     TweenMax.to("#cta2", 1, { x: '0',opacity:1, zIndex: 1})
     TweenMax.to("#cta3", 1, { x: '0',opacity:1, zIndex: 1})
     TweenMax.to("#cta4", 1, { x: '0',opacity:1, zIndex: 1})
