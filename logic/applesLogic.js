@@ -134,3 +134,13 @@ document.getElementById('title-nemesis').addEventListener('click', function () {
     TweenMax.to("#title-authors", 1, {fontSize: '4em', delay: 1})
     TweenMax.to("#title", 1, {height: '300px', delay: 1})
 })
+
+// Issue Subtitles
+
+document.getElementById('cta1-text-container').addEventListener('mouseover', function(){
+    TweenMax.to('.cta-text', 1.5, { scale: 3, ease: Elastic.easeOut.config(1, 0.3) } );
+});
+
+document.getElementById('cta1-text-container').addEventListener('mouseout', function(){
+    TweenMax.to('.cta-text', 1.5, { scale: 1, ease: Elastic.easeOut.config(1, 0.3) } );
+});
