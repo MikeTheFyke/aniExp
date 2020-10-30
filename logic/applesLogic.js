@@ -37,6 +37,7 @@ document.getElementById('cta2').addEventListener('click', function () {
     TweenMax.to("#cta3", 1, { x: '-20vw', opacity:0})
     TweenMax.to("#cta4", 1, { x: '-40vw', opacity:0})
     TweenMax.to("#cta2", 1, { x: window.screen.width / 6, delay: 1.5})
+    TweenMax.to("#cta2-text-container", 0.5, { opacity: 1, y: '60px',ease: Elastic.easeOut, delay: 4});
     TweenMax.to("#cover2-container", 1, { opacity: 1, y: -100, scaleX: 2, scaleY: 1.5, delay: 2.5});
     
     TweenMax.to("#title-nemesis", 1, {fontSize: '10em', y: '394px', delay: 2.5})
@@ -63,6 +64,7 @@ document.getElementById('cta3').addEventListener('click', function () {
     TweenMax.to("#cta2", 1, { x: '20vw', opacity:0})
     TweenMax.to("#cta4", 1, { x: '-20vw', opacity:0})
     TweenMax.to("#cta3", 1, { x: -window.screen.width / 4, delay: 1.5})
+    TweenMax.to("#cta3-text-container", 0.5, { opacity: 1, y: '60px',ease: Elastic.easeOut, delay: 4});
     TweenMax.to("#cover3-container", 1, { opacity: 1, y: -100, scaleX: 2, scaleY: 1.5, delay: 2.5});
 
     TweenMax.to("#title-nemesis", 1, {fontSize: '10em', y: '394px', delay: 2.5})
@@ -89,6 +91,7 @@ document.getElementById('cta4').addEventListener('click', function () {
     TweenMax.to("#cta2", 1, { x: '40vw', opacity:0})
     TweenMax.to("#cta3", 1, { x: '20vw', opacity:0})
     TweenMax.to("#cta4", 1, { x: -window.screen.width/ 1.6, delay: 1.5})
+    TweenMax.to("#cta4-text-container", 0.5, { opacity: 1, y: '60px',ease: Elastic.easeOut, delay: 4});
     TweenMax.to("#cover4-container", 1, { opacity: 1, y: -100, scaleX: 2, scaleY: 1.5, delay: 2.5});
 
     TweenMax.to("#title-nemesis", 1, {fontSize: '10em', y: '394px', delay: 2.5})
@@ -112,10 +115,13 @@ document.getElementById('cta4').addEventListener('mouseout', function(){
 // Reset by title click
 document.getElementById('title-nemesis').addEventListener('click', function () {
     TweenMax.to("#cta1", 1, { x: '0', opacity:1, zIndex: 1})
-    TweenMax.to("#cta1-text-container", 0.5, { opacity: 0, y: '0px'});
     TweenMax.to("#cta2", 1, { x: '0',opacity:1, zIndex: 1})
     TweenMax.to("#cta3", 1, { x: '0',opacity:1, zIndex: 1})
     TweenMax.to("#cta4", 1, { x: '0',opacity:1, zIndex: 1})
+    TweenMax.to("#cta1-text-container", 0.5, { opacity: 0, y: '0px'});
+    TweenMax.to("#cta2-text-container", 0.5, { opacity: 0, y: '0px'});
+    TweenMax.to("#cta3-text-container", 0.5, { opacity: 0, y: '0px'});
+    TweenMax.to("#cta4-text-container", 0.5, { opacity: 0, y: '0px'});
     TweenMax.to("#cover1-container", 1, { opacity: 0, y: 0, scaleX: 1, scaleY: 1})
     TweenMax.to("#issue1-cover", 1.5, { content:'url("../images/Nemesis/Nemesis1TextLessCover.png")'});
     TweenMax.to("#cover2-container", 1, { opacity: 0, y: 0, scaleX: 1, scaleY: 1})
